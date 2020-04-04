@@ -1,0 +1,10 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+body {
+    padding-top: 3.5rem;
+}
+
+.jumbotron {
+    background-image: url("../images/claudio-schwarz-purzlbaum-k39RGHmLoV8-unsplash.pages.jpg");
+    background-size: cover;
+}

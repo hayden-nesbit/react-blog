@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Week 1",
+        "date" : "2/15/2020",
+        "paragraphs" : [ 
+            "Week one flew by--but was not without moments that felt painfully long (fumbling through Git, navigating the Command Line, etc.). I expected to struggle, and to feel a little overwhelmed, but wasn't sure how I would struggle. That's where I've been living: swimming in questions I didn't know I needed to ask!", 
+            "In some sense I feel like everything's a struggle (re: swimming in questions!). But specifically, I'm still tiptoeing my way around GitHub, poking around in the Command Line, and crossing my fingers that repo's magically appear!",
+            "With the Command Line feeling a little more like home each day, I'm excited to continue uncovering its power. Beyond the CL, I'm eager to jump into html--the little bit I've picked up thus far has me itching to dive in deeper! (Specifically, how to make this text not run the length of the page!)"
+        ]
+    }
+]
