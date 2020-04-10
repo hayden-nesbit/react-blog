@@ -1,11 +1,86 @@
 [
     {
-        "title": "Week 1",
-        "date" : "2/15/2020",
+        "title": "Week 6",
+        "date" : "2020-03-08",
         "paragraphs" : [ 
+            
+        ],
+        "stack" : ""
+    },
+
+    {
+        "title": "Week 5",
+        "date" : "2020-03-01",
+        "paragraphs" : [ 
+            "What did you learn about that helped you understand more about design?",
+            "The design acronym (C.R.A.P.) about contrast, repetition, alignment, and proximity was really helpful. Being married to a graphic designer I often get a lot of help in the way things I create should look, but this overview helped me understand better for myself. I especially resonated with the contrast piece. I tend to think about contrast only in terms of color; using contrast in other ways--fonts, shapes, etc.--was a new way to think about good design.",
+            "What do you want to continue learning about that helps you understand design better?",
+            "Two things piqued my interest from our lesson on design: 1) the difference between geometric and visual center, and 2) how to guide the eye using design. These two things are incredibly important in good design, as they take into account not only what I think looks good, but how others experience the design.",
+            "What Design aspects are important to you as a user and as a developer?",
+            "Personally, both alignment and proximity are important to me--both as a user and developer. I find these two things are some of the most noticeable things to the eye. Even if one doesn’t have the vocabulary to explain them, I think most have an intuition for things being misaligned and poorly spaced.",
+            "What is the number one thing that held you back this week? Why?",
+            "This week was actually fairly straight forward and fun. Bootstrap is great and I spent a lot of time using templates, playing around, extending, and implementing ideas. This approach helped me get familiar with a lot of Bootstraps elements and how they work. However, I think I was “held back” in the sense that I may have benefitted in the long run more had I started from scratch.",
+            "What is one thing you would like to get better at in bootcamp?",
+            "I think it’s going to be important for me personally to not have perfection as my goal, but rather progress. I prefer things neat, clean, and finished. But I also value learning and know that the learning process is seldom neat or clean, and never finished."
+        ],
+        "stack" : ""
+    },
+
+    {
+        "title": "Week 4",
+        "date" : "2020-02-23",
+        "paragraphs" : [ 
+            "What are yourWhat was one thing you liked and disliked about each of the new topics covered in prework?",
+            "While I liked all the topics covered in prework, there were unique things about each that I found difficult. GitHub was easy to begin working with, but communicating between GitHub and the terminal was challenging. HTML and CSS as a pair were fairly straightforward in how they relate to one another, but I struggled particularly with padding and margin within CSS. JavaScript has been both the most likeable and most difficult topic; I've love the logical thinking required and how all the pieces fit together, however, there are a lot of pieces and learning them all has been overwhelming.",
+            "What was helpful?",
+            "A few things helped me during the prework. The first was the #help channel in Slack. I asked a lot of questions and learned a lot from the instructors, as well as the other students. The other help was learning about pseudo-coding. I can see how this will be invaluable when approaching bigger, more complicated projects--especially involving JavaScript.",
+            "What hindered your progress?",
+            "I didn't feel too hindered throughout prework, however, I think I could have jumped into the projects and assignments sooner than I did each week. I spent a good bit of time reading documentation and trying to understand thoroughly before getting my hands dirty. I think I would have been helped more by getting into the code myself instead of reading so much.",
+            "How did you overcome challenges?",
+            "The challenges during prework were overcome by plodding. By that I mean simply coming back to the problems each day, giving them time and effort, and doing the work necessary to move forward. I don't think there's going to be any magic bullets with web development but rather--like anything else--it's going to come down to showing up each day and taking a few steps forward."
+        ],
+        "stack" : ""
+    },
+
+    {
+        "title": "Week 3",
+        "date" : "2020-02-16",
+        "paragraphs" : [ 
+            "What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?",
+            "I really like how HTML, CSS, and JavaScript work together. It makes conceptual sense to me, and the little bit I’ve grasped thus far has enabled me to do some pretty cool things with my blog (the dropdown navbar and footer icons in particular). I’m a little concerned about my ability to keep all the sheets “clean”--creating various classes to make all the features move how I want seems to get out of hand at times--but I’m sure that will come with time!", 
+            "What are some objects that your blog incorporates?",
+            "In terms of the three tools’ ability to provide user experience, I’m excited to keep learning. JavaScript in particular seems to be a really powerful tool with endless possibilities for functionality and user experience. So far, my blog incorporates various objects to improve user experience. The main object being the navigation bar. It’s HTML and CSS code enable it to change color on click and hover, as well as incorporate dropdown sections under “Projects” and “Blog”. Also, the blog features a footer which contains two icons linked to my personal LinkedIn profile and Twitter page. In the future, I hope to implement JavaScript to loop through text on the home page (“Learning HTML”, “Learning CSS”, “Learning JavaScript”, etc.)."
+        ],
+        "stack" : ""
+    },
+
+    {
+        "title": "Week 2",
+        "date" : "2020-02-09",
+        "paragraphs" : [ 
+            "What are your thoughts on pseudo coding?",
+            "Pseudo code is very helpful. Its use of fuller language reminds me of formulas in spreadsheets--where I’ve had most of my experience. The language itself seems very logical which is helpful for me. The high-level, descriptive nature of pseudo code is helpful for me as I come at programming as a beginner; having a tool like this to layout big-picture components with easy to understand comments will be a huge help!", 
+            "What are you struggling with?",
+            "It’s less of a specific struggle and more like walking around in the dark--I spent a good bit of time looking at code for certain features, manipulating it, seeing what changed and what didn’t, and trying to understand everything. This poking around feels a little like a “struggle” but it’s also leading to some helpful discoveries and, I hope, a better working grasp on the overall process.",
+            "What are you excited or eager to learn more about?",
+            "After playing around with this blog for a day or so, experimenting with fixed navigation bars, margin, gradient colors, etc., I’m eager to become more familiar with the capabilities of CSS. Specifically, I’m excited to learn more about the box model and how it can be used to incorporate features like drop down navigation bars and aside content. Wading into CSS this past week has increased my interest in and awareness of all the websites I frequent--I’m gaining a better eye for good design and usability!"
+        ],
+        "stack" : ""
+    },
+
+    {
+        "title": "Week 1",
+        "date" : "2020-02-02",
+        "paragraphs" : [ 
+            "Was your first week what you expected? Why? Why not?",
             "Week one flew by--but was not without moments that felt painfully long (fumbling through Git, navigating the Command Line, etc.). I expected to struggle, and to feel a little overwhelmed, but wasn't sure how I would struggle. That's where I've been living: swimming in questions I didn't know I needed to ask!", 
+            "What are you struggling with?",
             "In some sense I feel like everything's a struggle (re: swimming in questions!). But specifically, I'm still tiptoeing my way around GitHub, poking around in the Command Line, and crossing my fingers that repo's magically appear!",
+            "What are you excited or eager to learn more about?",
             "With the Command Line feeling a little more like home each day, I'm excited to continue uncovering its power. Beyond the CL, I'm eager to jump into html--the little bit I've picked up thus far has me itching to dive in deeper! (Specifically, how to make this text not run the length of the page!)"
-        ]
+        ],
+        "stack" : ""
     }
+
+
 ]
