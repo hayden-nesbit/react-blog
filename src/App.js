@@ -1,9 +1,10 @@
 import React from 'react';
 import BlogPosts from './BlogPosts'
 import Navbar from './Navbar'
+import Projects from './Projects'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-class Blog extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = { currentPage: "Blog" }
@@ -19,7 +20,7 @@ class Blog extends React.Component {
 
   render() {
     return (
-      <div className="Blog">
+      <div className="App">
         <Navbar
           updatePage={this.updatePage}
         />
@@ -32,7 +33,7 @@ class Blog extends React.Component {
         }
         {
           this.state.currentPage === "Projects" ?
-            {/* <Projects /> */}
+            <Projects />
             :
             null
         }
@@ -42,4 +43,4 @@ class Blog extends React.Component {
   };
 }
 
-export default Blog;
+export default App;

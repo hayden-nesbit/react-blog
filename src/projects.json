@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Mind-Reader",
+        "date": "2020-02-15",
+        "description": "Interactive mind reading app built with JavaScript",
+        "link": "https://hayden-nesbit.github.io/mind-reader/"
+    },
+
+    {
+        "title": "Weather App",
+        "date": "2020-02-25",
+        "description": "Interactive weather app utilizing JavaScript and APIs",
+        "link": "https://hayden-nesbit.github.io/weather-app/"
+    }
+]
