@@ -1,11 +1,10 @@
 import React from 'react'
 import projectCards from './projects.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faJsSquare, faBootstrap, faHtml5 } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
 class Projects extends React.Component {
-
     render() {
 
         function splitStack(stack) {
@@ -38,7 +37,21 @@ class Projects extends React.Component {
                         </div>
                     )
                 }
-                
+                else if (item === "CSS") {
+                    return (
+                        <div className="col-sm-3 fa-3x" >
+                            <FontAwesomeIcon icon={faCss3Alt} />
+                        </div>
+                    )
+                }
+                else if (item === "GitHub") {
+                    return (
+                        <div className="col-sm-3 fa-3x" >
+                            <FontAwesomeIcon icon={faGithub} />
+                        </div>
+                    )
+                }
+
             })
         }
 
@@ -60,9 +73,8 @@ class Projects extends React.Component {
                         </div>
                         <div className="col-md-6 mt-5">
                             <div className="row">
-                                {splitStack(card.stack)}
+                                    {splitStack(card.stack)}
                             </div>
-
                         </div>
                     </div>
                 </div>

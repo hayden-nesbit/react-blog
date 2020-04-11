@@ -8,8 +8,19 @@
         "stack": [
             "React", 
             "JavaScript", 
-            "Bootstrap",
-            "Firebase"
+            "Bootstrap"
+        ]
+    },
+
+    {
+        "title": "Restaurant Menu",
+        "date": "2020-04-11",
+        "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
+        "link": "https://react-puzzle-b0335.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Bootstrap"
         ]
     },
 
@@ -19,9 +30,48 @@
         "description": "To-do List app utilizing Local Storage, State, and JavaScript",
         "link": "https://hayden-nesbit.github.io/to-do-list/",
         "stack": [
-            "fill", 
-            "fill", 
-            "fill"
+            "React", 
+            "JavaScript", 
+            "Bootstrap",
+            "GitHub"
+        ]
+    },
+
+    {
+        "title": "Tic-Tac-Toe",
+        "date": "2020-04-11",
+        "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
+        "link": "https://react-puzzle-b0335.web.app/",
+        "stack": [
+            "JavaScript", 
+            "Bootstrap",
+            "CSS",
+            "GitHub"
+        ]
+    },
+
+    {
+        "title": "Calculator",
+        "date": "2020-04-11",
+        "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
+        "link": "https://react-puzzle-b0335.web.app/",
+        "stack": [
+            "JavaScript", 
+            "Bootstrap",
+            "CSS",
+            "GitHub"
+        ]
+    },
+
+    {
+        "title": "Bouncing Balls",
+        "date": "2020-04-11",
+        "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
+        "link": "https://react-puzzle-b0335.web.app/",
+        "stack": [
+            "JavaScript", 
+            "Bootstrap",
+            "GitHub"
         ]
     },
 
@@ -31,9 +81,9 @@
         "description": "Interactive weather app utilizing JavaScript and APIs",
         "link": "https://hayden-nesbit.github.io/weather-app/",
         "stack": [
-            "fill", 
-            "fill", 
-            "fill"
+            "Bootstrap", 
+            "CSS", 
+            "JavaScript"
         ]
     },
 
@@ -44,9 +94,49 @@
         "description": "Interactive mind reading app built with JavaScript",
         "link": "https://hayden-nesbit.github.io/mind-reader/",
         "stack": [
+            "JavaScript", 
+            "CSS", 
+            "Bootstrap",
+            "GitHub"
+        ]
+    },
+
+    {
+        "title": "Campaign Website",
+        "date": "2020-02-15",
+        "description": "Interactive mind reading app built with JavaScript",
+        "link": "https://hayden-nesbit.github.io/mind-reader/",
+        "stack": [
             "HTML", 
-            "fill", 
-            "fill"
+            "CSS", 
+            "Bootstrap",
+            "GitHub"
+        ]
+    },
+
+    {
+        "title": "Countdown Timer",
+        "date": "2020-02-15",
+        "description": "Interactive mind reading app built with JavaScript",
+        "link": "https://hayden-nesbit.github.io/mind-reader/",
+        "stack": [
+            "HTML", 
+            "CSS", 
+            "JavaScript",
+            "GitHub"
+        ]
+    },
+
+    {
+        "title": "Digital Clock",
+        "date": "2020-02-15",
+        "description": "Interactive mind reading app built with JavaScript",
+        "link": "https://hayden-nesbit.github.io/mind-reader/",
+        "stack": [
+            "HTML", 
+            "CSS", 
+            "JavaScript",
+            "GitHub"
         ]
     }
 
