@@ -2,12 +2,14 @@ import React from 'react';
 import BlogPosts from './BlogPosts'
 import Navbar from './Navbar'
 import Projects from './Projects'
+import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import projects from './projects.json'
 
 class App extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { currentPage: "Blog" }
+    this.state = { currentPage: "Home" }
     this.updatePage = this.updatePage.bind(this)
   }
 
@@ -27,19 +29,21 @@ class App extends React.Component {
 
         {
           this.state.currentPage === "Blog" ?
-          <BlogPosts />
+            <BlogPosts />
             :
             null
         }
+
         {
           this.state.currentPage === "Projects" ?
             <Projects />
             :
             null
         }
+        <Footer />
       </div>
-    
-  )
+
+    )
   };
 }
 

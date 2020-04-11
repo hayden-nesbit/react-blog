@@ -1,15 +1,54 @@
 [
+
     {
-        "title": "Mind-Reader",
-        "date": "2020-02-15",
-        "description": "Interactive mind reading app built with JavaScript",
-        "link": "https://hayden-nesbit.github.io/mind-reader/"
+        "title": "Puzzle Slider",
+        "date": "2020-04-11",
+        "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
+        "link": "https://react-puzzle-b0335.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Bootstrap",
+            "Firebase"
+        ]
+    },
+
+    {
+        "title": "To-do List",
+        "date": "2020-03-30",
+        "description": "To-do List app utilizing Local Storage, State, and JavaScript",
+        "link": "https://hayden-nesbit.github.io/to-do-list/",
+        "stack": [
+            "fill", 
+            "fill", 
+            "fill"
+        ]
     },
 
     {
         "title": "Weather App",
         "date": "2020-02-25",
         "description": "Interactive weather app utilizing JavaScript and APIs",
-        "link": "https://hayden-nesbit.github.io/weather-app/"
+        "link": "https://hayden-nesbit.github.io/weather-app/",
+        "stack": [
+            "fill", 
+            "fill", 
+            "fill"
+        ]
+    },
+
+
+    {
+        "title": "Mind-Reader",
+        "date": "2020-02-15",
+        "description": "Interactive mind reading app built with JavaScript",
+        "link": "https://hayden-nesbit.github.io/mind-reader/",
+        "stack": [
+            "HTML", 
+            "fill", 
+            "fill"
+        ]
     }
+
+    
 ]
