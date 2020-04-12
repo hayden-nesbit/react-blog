@@ -1,43 +1,57 @@
-import React from "react"
+import React, { useState } from 'react';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem,
+    NavbarText
+} from 'reactstrap';
 
-class Navbar extends React.Component {
-    constructor(props) {
-        super(props)
-        this.navbarLinks = [
-            "Home",
-            "Blog",
-            "Projects"
-        ]
-    }
+const HomeNav = (props) => {
 
-    render() {
-        const navLinksinHTML = this.navbarLinks.map((link, index) => {
-            return (
-                <div key={index}>
-                    <a className="pl-5 text-light"
-                        onClick={() => this.props.updatePage(link)}
-                        href="#"
+    const [isOpen, setIsOpen] = useState(false);
 
-                    >
-                        {link}
-                    </a>
-                </div>
-            )
-        })
+    const navbarLinks = [
+        "Home",
+        "Blog",
+        "Projects"
+    ]
 
+    const navLinksinHTML = navbarLinks.map((link, index) => {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul className="navbar-nav">
-                        {navLinksinHTML}
-                    </ul>
-                </div>
-            </nav>
+            <div key={index}>
+                <NavLink className="text-light"
+                    onClick={() => props.updatePage(link)}
+                    href="#"
+
+                >
+                    {link}
+                </NavLink>
+            </div>
         )
-    }
+    })
+
+    const toggle = () => setIsOpen(!isOpen);
+
+    return (
+        <div>
+            <Navbar color="dark" light expand="md">
+                <NavbarToggler onClick={toggle} />
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav className="mr-auto" navbar>
+                        {navLinksinHTML}
+                    </Nav>
+                </Collapse>
+            </Navbar>
+        </div>
+    );
 }
 
-export default Navbar
+export default HomeNav;
