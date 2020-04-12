@@ -16,7 +16,7 @@
         "title": "Restaurant Menu",
         "date": "2020-04-11",
         "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
-        "link": "https://react-puzzle-b0335.web.app/",
+        "link": "https://hayden-nesbit.github.io/react-menu/",
         "stack": [
             "React", 
             "JavaScript", 
@@ -40,8 +40,8 @@
     {
         "title": "Tic-Tac-Toe",
         "date": "2020-04-11",
-        "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
-        "link": "https://react-puzzle-b0335.web.app/",
+        "description": "Dynamic Tic-Tac-Toe game utilizing Local Storage, State, and JavaScript",
+        "link": "https://hayden-nesbit.github.io/tic-tac-toe/",
         "stack": [
             "JavaScript", 
             "Bootstrap",
@@ -53,8 +53,8 @@
     {
         "title": "Calculator",
         "date": "2020-04-11",
-        "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
-        "link": "https://react-puzzle-b0335.web.app/",
+        "description": "Functioning calculator utilizing state and JavaScript",
+        "link": "https://hayden-nesbit.github.io/calculator/",
         "stack": [
             "JavaScript", 
             "Bootstrap",
@@ -66,8 +66,8 @@
     {
         "title": "Bouncing Balls",
         "date": "2020-04-11",
-        "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
-        "link": "https://react-puzzle-b0335.web.app/",
+        "description": "fill in",
+        "link": "https://hayden-nesbit.github.io/bouncing-balls/",
         "stack": [
             "JavaScript", 
             "Bootstrap",
@@ -104,8 +104,8 @@
     {
         "title": "Campaign Website",
         "date": "2020-02-15",
-        "description": "Interactive mind reading app built with JavaScript",
-        "link": "https://hayden-nesbit.github.io/mind-reader/",
+        "description": "fill in",
+        "link": "https://hayden-nesbit.github.io/campaign-components/",
         "stack": [
             "HTML", 
             "CSS", 
@@ -117,8 +117,8 @@
     {
         "title": "Countdown Timer",
         "date": "2020-02-15",
-        "description": "Interactive mind reading app built with JavaScript",
-        "link": "https://hayden-nesbit.github.io/mind-reader/",
+        "description": "fill in",
+        "link": "https://hayden-nesbit.github.io/countdown-timer/",
         "stack": [
             "HTML", 
             "CSS", 
@@ -130,8 +130,8 @@
     {
         "title": "Digital Clock",
         "date": "2020-02-15",
-        "description": "Interactive mind reading app built with JavaScript",
-        "link": "https://hayden-nesbit.github.io/mind-reader/",
+        "description": "fill in",
+        "link": "https://hayden-nesbit.github.io/digital-clock/",
         "stack": [
             "HTML", 
             "CSS", 

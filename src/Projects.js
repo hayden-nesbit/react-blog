@@ -8,83 +8,61 @@ class Projects extends React.Component {
     render() {
 
         function splitStack(stack) {
-            return stack.map((item, index) => {
+            return stack.map((item) => {
+                let icon = ''
                 if (item === "React") {
-                    return (
-                        <div className="col-sm-3 fa-3x" >
-                            <FontAwesomeIcon icon={faReact} />
-                        </div>
-                    )
+                    icon = <FontAwesomeIcon icon={faReact} />
                 }
                 else if (item === "JavaScript") {
-                    return (
-                        <div className="col-sm-3 fa-3x" >
-                            <FontAwesomeIcon icon={faJsSquare} />
-                        </div>
-                    )
+                    icon = <FontAwesomeIcon icon={faJsSquare} />
                 }
                 else if (item === "Bootstrap") {
-                    return (
-                        <div className="col-sm-3 fa-3x" >
-                            <FontAwesomeIcon icon={faBootstrap} />
-                        </div>
-                    )
+                    icon = <FontAwesomeIcon icon={faBootstrap} />
                 }
                 else if (item === "HTML") {
-                    return (
-                        <div className="col-sm-3 fa-3x" >
-                            <FontAwesomeIcon icon={faHtml5} />
-                        </div>
-                    )
+                    icon = <FontAwesomeIcon icon={faHtml5} />
                 }
                 else if (item === "CSS") {
-                    return (
-                        <div className="col-sm-3 fa-3x" >
-                            <FontAwesomeIcon icon={faCss3Alt} />
-                        </div>
-                    )
+                    icon = <FontAwesomeIcon icon={faCss3Alt} />
                 }
                 else if (item === "GitHub") {
-                    return (
-                        <div className="col-sm-3 fa-3x" >
-                            <FontAwesomeIcon icon={faGithub} />
-                        </div>
-                    )
+                    icon = <FontAwesomeIcon icon={faGithub} />
                 }
+                return (
+                    <div className="col-sm-2 fa-lg mt-2" >
+                        {icon}
+                    </div>
+                )
 
             })
         }
 
-
         const projCard = projectCards.map((card, index) => {
-
 
             return (
                 <div>
                     <div className="row">
-                        <div key={index} className="col-md-6">
+                        <div key={index} className="col-md-6 offset-3">
                             <div className="card mb-3">
                                 <div className="card-body bg-light">
                                     <h5 className="card-title">{card.title}</h5>
                                     <p className="card-text">{card.description}</p>
-                                    <a href={card.link} className="btn btn-outline-primary">View</a>
+                                    <div className="row">
+                                        <div className="col-sm-2 col-2">
+                                            <a href={card.link} target="_blank" className="btn btn-outline-primary">View</a>
+                                        </div>
+                                        {splitStack(card.stack)}
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 mt-5">
-                            <div className="row">
-                                    {splitStack(card.stack)}
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             )
         })
 
         return (
-            <div className="container mt-5" >
+            <div className="container mt-3" >
                 {projCard}
             </div>
         )

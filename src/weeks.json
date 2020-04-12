@@ -1,15 +1,86 @@
 [
+
     {
         "title": "Week 6",
-        "date" : "2020-03-08",
+        "date" : "2020-04-05",
         "paragraphs" : [ 
-            
+           "What do you like about React?",
+           "I'm really starting to love how components work. It makes a lot of sense to have JavaScript logic, state, etc. in one component, export that component, and import it elsewhere to build something.",
+           "What are you struggling with the most about React?",
+           "At this point I think my biggest struggle isn't with React specifically (I feel confident with it), but using JavaScript within it.",
+           "How has React caused you to rethink your existing projects?",
+           "React definitely allows for things to be much more dynamic and efficient. I've already seen how old projects could be simplified using the component structure.",
+           "What is your biggest win this week? Halfway through!",
+           "My biggest win was getting the Puzzle Slider completed for Demo Day. I was overwhelmed at first; the project had a lot of factors to consider, but struggling through it (and getting a lot of help) helped me grow in my understanding of confidence level.",
+           "Compared to week three, what are three ideas you might want to do for your final project? Are they the same, or have they changed now that you understand more about the technology and your limitations?",
+           " "
         ],
         "stack" : ""
     },
 
     {
         "title": "Week 5",
+        "date" : "2020-03-29",
+        "paragraphs" : [ 
+           "Why are CLIs scary?",
+           "I think what scares me most about CLIs is the fact that you don't 'see' a lot of what you're doing. You could run a line  of code from the terminal and it upload/change/delete something from your system and you not know it (if you weren't tracking with what was happening)",
+           "What have you learned about CLIs?",
+           "I've learned that they can be really efficient. For example, it's much quicker to add, save, push, and edit using a few lines on the command line rather than going to GitHub and editing/merging/etc.",
+           "Would you build a CLI? What would it do?",
+           "I can't imagine building one, but if I did ..",
+           "List a some ideas that without a Framework, would take you a long time to code",
+           " ",
+           "How do you feel now (week 5) compared to when you started?",
+           "At this point in the bootcamp I feel fairly confident. I really like React and Bootstrap and feel like I'm growing a lot and understand what I'm doing. I feel comfortable in the command line, and I enjoy JavaScript but feel less confident there--I can figure out how to make things work, but not always the best way."
+        ],
+        "stack" : ""
+    },
+
+    {
+        "title": "Week 4",
+        "date" : "2020-03-22",
+        "paragraphs" : [ 
+           "Why do you see JavaScript Frameworks and Libraries useful or hard to use?",
+           " ",
+           "What Frameworks or Libraries are you interested in learning more about?",
+           " ",
+           "Find one emerging JavaScript tool that you would like to learn more about or use in your final project."
+        ],
+        "stack" : ""
+    },
+    
+    {
+        "title": "Week 3",
+        "date" : "2020-03-15",
+        "paragraphs" : [ 
+           "What are three ideas you might want to do for your final project?",
+           "I'm having difficulty thinking about potential final project ideas with only being into week 3 of the bootcamp. However, two things I'm personally interested are poetry and literature, as well as personal development in general. It would be interesting to play with an app that could generate custom reading or development 'plans' based on a users given criteria (e.g. 'I have 10 minutes a day', 'I'd like to learn about 'x' topic', 'I'm more of a visual learner', etc.). Then, based on this criteria, generate a plan, with 'due dates' and an end date (set by the user) to work through the generated material.",
+           "Why do you see JavaScript useful or hard to use?",
+           "JavaScript is incredibly useful! Being able to make function that store multiple 'steps' or calculations of a problem, that is then able to be called throughout the code without repeating the initial steps is a huge time saver, as well as opens up endless possibilities for developing 'smart' programs.",
+           "What aspects about JavaScript are you interested in learning more about?",
+           "As I wrap my head around arrays more and more, I'm beginning to see their utility and potential. All kinds of things can be stored in and accessed via arrays. This is a really useful tool for user input, storage, and retrieval."
+        ],
+        "stack" : ""
+    },
+    
+    {
+        "title": "Week 2",
+        "date" : "2020-03-08",
+        "paragraphs" : [ 
+            "What did you learn about that helped you understand the development process?",
+            "Having two Demo Days under our belts, I've seen more each time the importance of understanding and being able to communicate one's code. The development process isn't complete when the code is pushed to GitHub, but really, it's complete when I can understand each line of code and clearly communicate the process to others.",
+            "What does it mean to develop good code?",
+            "One thing that I'm starting to catch on to is the importance of 'DRY' code ('Don't Repeat Yourself'). The programming languages I'm learning are smart enough to not need repeated lines throughout the code! Learning how to 'reuse' lines of code throughout a project is one important element of good, efficient code.",
+            "What does it mean to be a good developer?",
+            "Personally, I think being a good developer comes down to two things: excellence and attention. The effort put into development, as well as the code itself, should be excellent. It should be efficient, complete, and without shortcuts. But the project as a whole should always give attention to the specific needs and desires of the customer. Excellent code that isn't useful to the customer isn't excellent!",
+            "What is one thing that programmers hate doing?",
+            "Repeating themselves! This is why 'DRY' code is such an emphasis in programming; time saving by reusing code throughout a project is a great practice!"
+        ],
+        "stack" : ""
+    },
+
+    {
+        "title": "Week 1",
         "date" : "2020-03-01",
         "paragraphs" : [ 
             "What did you learn about that helped you understand more about design?",
@@ -27,7 +98,7 @@
     },
 
     {
-        "title": "Week 4",
+        "title": "Prework Week 4",
         "date" : "2020-02-23",
         "paragraphs" : [ 
             "What are yourWhat was one thing you liked and disliked about each of the new topics covered in prework?",
@@ -43,7 +114,7 @@
     },
 
     {
-        "title": "Week 3",
+        "title": "Prework Week 3",
         "date" : "2020-02-16",
         "paragraphs" : [ 
             "What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?",
@@ -55,7 +126,7 @@
     },
 
     {
-        "title": "Week 2",
+        "title": "Prework Week 2",
         "date" : "2020-02-09",
         "paragraphs" : [ 
             "What are your thoughts on pseudo coding?",
@@ -69,7 +140,7 @@
     },
 
     {
-        "title": "Week 1",
+        "title": "Prework Week 1",
         "date" : "2020-02-02",
         "paragraphs" : [ 
             "Was your first week what you expected? Why? Why not?",

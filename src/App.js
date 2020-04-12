@@ -3,6 +3,7 @@ import BlogPosts from './BlogPosts'
 import Navbar from './Navbar'
 import Projects from './Projects'
 import Footer from './Footer'
+import Home from './Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import projects from './projects.json'
 
@@ -27,6 +28,13 @@ class App extends React.Component {
           updatePage={this.updatePage}
         />
 
+{
+          this.state.currentPage === "Home" ?
+            <Home />
+            :
+            null
+        }
+        
         {
           this.state.currentPage === "Blog" ?
             <BlogPosts />
