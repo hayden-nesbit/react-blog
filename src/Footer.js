@@ -1,12 +1,13 @@
 import React from 'react'
 import './Footer.css'
+import img from './awesomelogo.png'
 
 class Footer extends React.Component {
     render() {
         return (
-            <footer class="footer mt-auto py-3">
-            <div class="container text-center">
-              <span class="text-muted">Awesome Inc. 2020 Bootcamp</span>
+            <footer className="footer mt-auto py-3 bg-dark">
+            <div className="container text-center">
+              <span className="text-white">Awesome Inc. 2020 Bootcamp</span>
             </div>
           </footer>
         )

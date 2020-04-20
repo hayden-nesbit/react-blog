@@ -10,7 +10,7 @@ import projects from './projects.json'
 class App extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { currentPage: "Home" }
+    this.state = { currentPage: "Blog" }
     this.updatePage = this.updatePage.bind(this)
   }
 
@@ -28,16 +28,27 @@ class App extends React.Component {
           updatePage={this.updatePage}
         />
 
-{
+        {
           this.state.currentPage === "Home" ?
             <Home />
             :
             null
         }
-        
+
         {
           this.state.currentPage === "Blog" ?
-            <BlogPosts />
+
+            <div className="container ml-0">
+              <div className="row">
+                <div className="col-md-4 pl-5 bg-light">
+                  <Projects />
+                </div>
+                <div className="col-md-8 pl-5 mt-4 ">
+                  <BlogPosts />
+                </div>
+              </div>
+            </div>
+
             :
             null
         }
@@ -45,12 +56,12 @@ class App extends React.Component {
         {
           this.state.currentPage === "Projects" ?
             <Projects />
+
             :
             null
         }
         <Footer />
-      </div>
-
+        ></div>
     )
   };
 }

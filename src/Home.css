@@ -1,7 +1,6 @@
 #hero {
-    background-image: url("./blogHome.jpg");
     background-size: cover;
-    min-height: 600px;
+    min-height: 300px;
     position: sticky;
     background: 0,0,0,0.5;
 }

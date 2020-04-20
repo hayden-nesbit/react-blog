@@ -40,33 +40,35 @@ class Projects extends React.Component {
         const projCard = projectCards.map((card, index) => {
 
             return (
+
+                // <div key={index} className="card mb-4 shadow-sm" >
+                //     <h5 className="card-title p-3 text-dark"></h5>
+                //     <div className="card-body">
+                //         <p className="card-text">{card.description}</p>
+                //         <div className="d-flex justify-content-between align-items-center">
+                //             <div className="btn-group">
                 <div>
-                    <div className="row">
-                        <div key={index} className="col-md-6 offset-3">
-                            <div className="card mb-3">
-                                <div className="card-body bg-light">
-                                    <h5 className="card-title">{card.title}</h5>
-                                    <p className="card-text">{card.description}</p>
-                                    <div className="row">
-                                        <div className="col-sm-2 col-2">
-                                            <a href={card.link} target="_blank" className="btn btn-outline-primary">View</a>
-                                        </div>
-                                        {splitStack(card.stack)}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a key={index} href={card.link} target="_blank">{card.title}</a><br /><br />
                 </div>
+                //             <small className="text-muted">{splitStack(card.stack)}</small>
+                //         </div>
+                //     </div>
+                // </div>
+
             )
         })
 
         return (
-            <div className="container mt-3" >
+            <div className="mt-4">
+                <h3 className="mb-3">Projects</h3>
                 {projCard}
             </div>
+
+
         )
     }
 }
 
 export default Projects
+
+// {splitStack(card.stack)}

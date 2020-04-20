@@ -1,8 +1,30 @@
 [
 
     {
+        "title": "Week 7",
+        "subtitle": "PHP, MySQL, JAVASCRIPT",
+        "date": "2020-04-18",
+        "paragraphs": [
+            "What have you learned about PHP and server side programming that you were not aware of prior to this week?",
+            "PHP is very powerful, but definitely has it's issues. I was surprised at how easily vulnerabilities can be taken advantage of with the program.",
+            "What do you want to know more about PHP and server side programming?",
+            "I'm very interested in server side programming. I'm not sure exactly what it is I want to know more about--perhaps just the process over all. I'm fascinated by the 'behind-the-scenes' nature of this aspect of programming.",
+            "How has learning PHP been? What are some similarities and differences you can see with JS?",
+            "Overall, learning PHP hasn't been too difficult. I appreciate the similarities to JS (especially React), but did struggle with the varying syntax and little differences in thinking.",
+            "What if you had started with PHP instead of JS?",
+            "I think I would have been relieved once I learned JS! So, I'm glad we learned them in the order we did. I think learning PHP was as easy as it was due to my familiarity with JS.",
+            "Are there any exercises you think would be improved if you refactored them to PHP from JS? Do you plan to?",
+            "",
+            "Find one library, framework, NPM package, and/or external web API you think you might want use for your final project.",
+            ""
+        ]
+
+    },
+
+    {
         "title": "Week 6",
         "date" : "2020-04-05",
+        "subtitle": "REACT, FIREBASE, JAVASCRIPT",
         "paragraphs" : [ 
            "What do you like about React?",
            "I'm really starting to love how components work. It makes a lot of sense to have JavaScript logic, state, etc. in one component, export that component, and import it elsewhere to build something.",
@@ -20,6 +42,7 @@
 
     {
         "title": "Week 5",
+        "subtitle": "",
         "date" : "2020-03-29",
         "paragraphs" : [ 
            "Why are CLIs scary?",
@@ -38,6 +61,7 @@
 
     {
         "title": "Week 4",
+        "subtitle": "",
         "date" : "2020-03-22",
         "paragraphs" : [ 
            "Why do you see JavaScript Frameworks and Libraries useful or hard to use?",
@@ -51,6 +75,7 @@
     
     {
         "title": "Week 3",
+        "subtitle": "",
         "date" : "2020-03-15",
         "paragraphs" : [ 
            "What are three ideas you might want to do for your final project?",
@@ -65,6 +90,7 @@
     
     {
         "title": "Week 2",
+        "subtitle": "",
         "date" : "2020-03-08",
         "paragraphs" : [ 
             "What did you learn about that helped you understand the development process?",
@@ -81,6 +107,7 @@
 
     {
         "title": "Week 1",
+        "subtitle": "",
         "date" : "2020-03-01",
         "paragraphs" : [ 
             "What did you learn about that helped you understand more about design?",
@@ -99,6 +126,7 @@
 
     {
         "title": "Prework Week 4",
+        "subtitle": "",
         "date" : "2020-02-23",
         "paragraphs" : [ 
             "What are yourWhat was one thing you liked and disliked about each of the new topics covered in prework?",
@@ -115,6 +143,7 @@
 
     {
         "title": "Prework Week 3",
+        "subtitle": "",
         "date" : "2020-02-16",
         "paragraphs" : [ 
             "What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?",
@@ -127,6 +156,7 @@
 
     {
         "title": "Prework Week 2",
+        "subtitle": "",
         "date" : "2020-02-09",
         "paragraphs" : [ 
             "What are your thoughts on pseudo coding?",
@@ -141,6 +171,7 @@
 
     {
         "title": "Prework Week 1",
+        "subtitle": "",
         "date" : "2020-02-02",
         "paragraphs" : [ 
             "Was your first week what you expected? Why? Why not?",

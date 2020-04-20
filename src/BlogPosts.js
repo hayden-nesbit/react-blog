@@ -9,6 +9,7 @@ class BlogPosts extends React.Component {
         }
     }
 
+
     componentDidMount() {
 
         this.setState({
@@ -29,31 +30,32 @@ class BlogPosts extends React.Component {
                 }
             })
         }
-    
+
 
         const blogPosts = blogWeeks.map((item, index) => {
             const formattedDate = new Date(item.date)
-            const difference = Math.floor(((this.state.currentTime - formattedDate)/1000/60/60/24) << 0)
+            const difference = Math.floor(((this.state.currentTime - formattedDate) / 1000 / 60 / 60 / 24) << 0)
+
             return (
-                <div className="row ml-5 mt-5 ml-0">
-                    <div className="col-md-2 mb-5">
-                        <h2>{item.title}</h2>
-                        <h6 className="text-secondary pl-2">{difference} day{difference === 1? "" : 's'} ago</h6>
-                    </div>
-                    <div className="col-md-8">
-                        <div key={index} className="border-left border-dark mb-5 pl-4">
-                            {splitParas(item.paragraphs)}
-                        </div>
+                <div>
+                    <h4 className="text-primary mb-2 pl-0">{item.subtitle}</h4>
+                    <h6 className="text-secondary pl-2 mb-3">{difference} day{difference === 1 ? "" : 's'} ago</h6>
+                    <div key={index} className="mb-5">
+                        {splitParas(item.paragraphs)}
                     </div>
                 </div>
+
             )
         })
         return (
-            <div className="mx-3">
+            <div>
+            <h1 className="mb-4">Blog</h1>
                 {blogPosts}
             </div>
         )
     }
 }
+
+
 
 export default BlogPosts
