@@ -1,5 +1,7 @@
 import React from 'react'
 import blogWeeks from './weeks.json'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 class BlogPosts extends React.Component {
     constructor(props) {
@@ -39,17 +41,23 @@ class BlogPosts extends React.Component {
             return (
                 <div>
                     <h4 className="text-primary mb-2 pl-0">{item.subtitle}</h4>
-                    <h6 className="text-secondary pl-2 mb-3">{difference} day{difference === 1 ? "" : 's'} ago</h6>
+                    <h6 className="text-secondary mb-4">{difference} day{difference === 1 ? "" : 's'} ago</h6>
                     <div key={index} className="mb-5">
                         {splitParas(item.paragraphs)}
+                        <hr />
                     </div>
                 </div>
 
             )
         })
         return (
-            <div>
-            <h1 className="mb-4">Blog</h1>
+            <div className="mt-5 pl-5 mr-0 pr-0">
+                <div className="d-inline p-1 float-right">
+                    <a className="pr-3" href="https://twitter.com/HaydenNesbit"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+                    <a className="pr-3" href="https://www.linkedin.com/in/hayden-nesbit-b54a7485/"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+                    <a href="https://github.com/hayden-nesbit?tab=repositories"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
+                </div>
+                <h1 className="mb-4">Blog</h1>
                 {blogPosts}
             </div>
         )

@@ -2,7 +2,7 @@
 
     {
         "title": "Week 7",
-        "subtitle": "PHP, MySQL, JAVASCRIPT",
+        "subtitle": "PHP, MySQL, & JAVASCRIPT",
         "date": "2020-04-18",
         "paragraphs": [
             "What have you learned about PHP and server side programming that you were not aware of prior to this week?",
@@ -24,7 +24,7 @@
     {
         "title": "Week 6",
         "date" : "2020-04-05",
-        "subtitle": "REACT, FIREBASE, JAVASCRIPT",
+        "subtitle": "REACT, FIREBASE, & JAVASCRIPT",
         "paragraphs" : [ 
            "What do you like about React?",
            "I'm really starting to love how components work. It makes a lot of sense to have JavaScript logic, state, etc. in one component, export that component, and import it elsewhere to build something.",
@@ -42,7 +42,7 @@
 
     {
         "title": "Week 5",
-        "subtitle": "",
+        "subtitle": "REACT & FIREBASE",
         "date" : "2020-03-29",
         "paragraphs" : [ 
            "Why are CLIs scary?",
@@ -61,7 +61,7 @@
 
     {
         "title": "Week 4",
-        "subtitle": "",
+        "subtitle": "NPM & REACT",
         "date" : "2020-03-22",
         "paragraphs" : [ 
            "Why do you see JavaScript Frameworks and Libraries useful or hard to use?",
@@ -75,7 +75,7 @@
     
     {
         "title": "Week 3",
-        "subtitle": "",
+        "subtitle": "JAVASCRIPT & DESIGN",
         "date" : "2020-03-15",
         "paragraphs" : [ 
            "What are three ideas you might want to do for your final project?",
@@ -90,7 +90,7 @@
     
     {
         "title": "Week 2",
-        "subtitle": "",
+        "subtitle": "JAVASCRIPT & DESIGN",
         "date" : "2020-03-08",
         "paragraphs" : [ 
             "What did you learn about that helped you understand the development process?",
@@ -107,7 +107,7 @@
 
     {
         "title": "Week 1",
-        "subtitle": "",
+        "subtitle": "JAVASCRIPT, BOOTSTRAP, & DESIGN",
         "date" : "2020-03-01",
         "paragraphs" : [ 
             "What did you learn about that helped you understand more about design?",
@@ -126,7 +126,7 @@
 
     {
         "title": "Prework Week 4",
-        "subtitle": "",
+        "subtitle": "JAVASCRIPT",
         "date" : "2020-02-23",
         "paragraphs" : [ 
             "What are yourWhat was one thing you liked and disliked about each of the new topics covered in prework?",
@@ -143,7 +143,7 @@
 
     {
         "title": "Prework Week 3",
-        "subtitle": "",
+        "subtitle": "HTML, CSS, & JAVASCRIPT",
         "date" : "2020-02-16",
         "paragraphs" : [ 
             "What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?",
@@ -156,7 +156,7 @@
 
     {
         "title": "Prework Week 2",
-        "subtitle": "",
+        "subtitle": "HTML, CSS, & PSEUDO-CODE",
         "date" : "2020-02-09",
         "paragraphs" : [ 
             "What are your thoughts on pseudo coding?",
@@ -171,7 +171,7 @@
 
     {
         "title": "Prework Week 1",
-        "subtitle": "",
+        "subtitle": "GIT & GITHUB",
         "date" : "2020-02-02",
         "paragraphs" : [ 
             "Was your first week what you expected? Why? Why not?",

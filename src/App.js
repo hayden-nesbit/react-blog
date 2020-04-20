@@ -24,9 +24,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Navbar
+        {/* <Navbar
           updatePage={this.updatePage}
-        />
+        /> */}
 
         {
           this.state.currentPage === "Home" ?
@@ -38,16 +38,17 @@ class App extends React.Component {
         {
           this.state.currentPage === "Blog" ?
 
-            <div className="container ml-0">
+            <div className="container ml-0 mr-2 pr-2">
               <div className="row">
-                <div className="col-md-4 pl-5 bg-light">
-                  <Projects />
+                <div className="col-md-3 col-sm-3 pl-5 bg-light">
+                  <Navbar />
                 </div>
-                <div className="col-md-8 pl-5 mt-4 ">
+                <div className="col-md-9 col-sm-9 pl-2 pr-3">
                   <BlogPosts />
                 </div>
               </div>
             </div>
+
 
             :
             null
@@ -61,7 +62,7 @@ class App extends React.Component {
             null
         }
         <Footer />
-        ></div>
+      </div>
     )
   };
 }

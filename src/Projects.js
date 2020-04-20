@@ -41,25 +41,16 @@ class Projects extends React.Component {
 
             return (
 
-                // <div key={index} className="card mb-4 shadow-sm" >
-                //     <h5 className="card-title p-3 text-dark"></h5>
-                //     <div className="card-body">
-                //         <p className="card-text">{card.description}</p>
-                //         <div className="d-flex justify-content-between align-items-center">
-                //             <div className="btn-group">
-                <div>
-                    <a key={index} href={card.link} target="_blank">{card.title}</a><br /><br />
-                </div>
-                //             <small className="text-muted">{splitStack(card.stack)}</small>
-                //         </div>
-                //     </div>
-                // </div>
+
+                <a key={index} href={card.link} target="_blank">{card.title}</a>
+
+
 
             )
         })
 
         return (
-            <div className="mt-4">
+            <div className="mt-5">
                 <h3 className="mb-3">Projects</h3>
                 {projCard}
             </div>
