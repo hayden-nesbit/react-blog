@@ -73,7 +73,7 @@ class BlogPosts extends React.Component {
                 else if (item === "Git") {
                     icon = <FontAwesomeIcon icon={faGit} />
                 }
-            
+
                 return (
                     <div className="col-sm-2 fa-lg mt-2 pl-0 d-inline" >
                         {icon}
@@ -90,9 +90,9 @@ class BlogPosts extends React.Component {
 
             return (
                 <div>
-                    <h3 className="text-primary mb-2 pl-0">{item.subtitle}</h3>
+                    <h3 className="sticky-top bg-white text-primary mb-2 pl-0">{item.subtitle}</h3>
                     <h6 key={index} className="">
-                    {splitStack(item.stack)}
+                        {splitStack(item.stack)}
                     </h6>
                     <h6 className="text-secondary mb-4">{difference} day{difference === 1 ? "" : 's'} ago</h6>
                     <div key={index} className="mb-5">
@@ -104,10 +104,11 @@ class BlogPosts extends React.Component {
             )
         })
         return (
-            <div className="mt-5 pl-5 mr-0 pr-0">
-                <h1 className="mb-4">Blog</h1>
+
+            <div id="blog-col" className="mt-0 pl-5 mr-0 pr-0">
                 {blogPosts}
             </div>
+
         )
     }
 }

@@ -17,7 +17,7 @@ const ProjNav = (props) => {
     });
 
     return (
-        <div className="bg-light mt-5">
+        <div className="bg-light mt-4">
             <Navbar light expand="md">
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>

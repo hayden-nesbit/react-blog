@@ -42,7 +42,9 @@ class App extends React.Component {
                 <div className="col-md-3 col-sm-3 pl-5 bg-light">
                 <ProjNav />
                 </div>
-                <div id="blog-col" className="col-md-9 col-sm-9 pl-2 pr-3">
+                
+                <div className="col-md-9 col-sm-9 pl-2 pr-3">
+                <h1 className="mb-2 mt-4 pl-5">Blog</h1>
                   <BlogPosts />
                 </div>
               </div>

@@ -50,7 +50,7 @@ class Projects extends React.Component {
         })
 
         return (
-            <div className="mt-5">
+            <div className="mt-3">
                 <h3 className="mb-3">Projects</h3>
                 {projCard}
             </div>
