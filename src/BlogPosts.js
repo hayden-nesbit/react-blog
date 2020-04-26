@@ -3,7 +3,7 @@ import blogWeeks from './weeks.json'
 import projectCards from './projects.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faPhp, faLaravel } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faPhp, faLaravel, faGit } from '@fortawesome/free-brands-svg-icons'
 import { faCodeBranch, faDatabase } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -69,6 +69,9 @@ class BlogPosts extends React.Component {
                 }
                 else if (item === "MySQL") {
                     icon = <FontAwesomeIcon icon={faDatabase} />
+                }
+                else if (item === "Git") {
+                    icon = <FontAwesomeIcon icon={faGit} />
                 }
             
                 return (

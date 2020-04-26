@@ -6,6 +6,7 @@ import Footer from './Footer'
 import Home from './Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TopNav from './TopNav'
+import './Blog.css'
 
 class App extends React.Component {
   constructor(props) {
@@ -41,7 +42,7 @@ class App extends React.Component {
                 <div className="col-md-3 col-sm-3 pl-5 bg-light">
                 <ProjNav />
                 </div>
-                <div className="col-md-9 col-sm-9 pl-2 pr-3">
+                <div id="blog-col" className="col-md-9 col-sm-9 pl-2 pr-3">
                   <BlogPosts />
                 </div>
               </div>

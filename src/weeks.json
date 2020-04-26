@@ -235,7 +235,6 @@
         "stack": [
             "HTML", 
             "CSS", 
-            "JavaScript",
             "GitHub"
         ]
     },
@@ -253,8 +252,8 @@
             "With the Command Line feeling a little more like home each day, I'm excited to continue uncovering its power. Beyond the CL, I'm eager to jump into html--the little bit I've picked up thus far has me itching to dive in deeper! (Specifically, how to make this text not run the length of the page!)"
         ],
         "stack": [
-            "GitHub"
-        ]
+            "Git",
+            "GitHub"        ]
     }
 
 
