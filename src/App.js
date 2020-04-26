@@ -25,7 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <TopNav />
+
 
         {/* {
           this.state.currentPage === "Home" ?
@@ -36,19 +36,19 @@ class App extends React.Component {
 
         {
           this.state.currentPage === "Blog" ?
-
-          <div className="container ml-0 mr-2 pr-2">
-              <div className="row">
-                <div className="col-md-3 col-sm-3 pl-5 bg-light">
-                <ProjNav />
+              <main role="main" className="container">
+              <h1 className="pb-3 mb-2 mt-4 border-bottom">
+                    Blog
+                </h1>
+                <div className="row">
+                  <div id="blog-block" className="col-md-8 blog-main">
+                    <BlogPosts />
+                  </div>
+                  <aside className="col-md-4 blog-sidebar">
+                    <Projects />
+                  </aside>
                 </div>
-                
-                <div className="col-md-9 col-sm-9 pl-2 pr-3">
-                <h1 className="mb-2 mt-4 pl-5">Blog</h1>
-                  <BlogPosts />
-                </div>
-              </div>
-            </div>
+              </main>
 
 
             :
@@ -69,3 +69,4 @@ class App extends React.Component {
 }
 
 export default App;
+

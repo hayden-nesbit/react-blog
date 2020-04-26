@@ -89,12 +89,10 @@ class BlogPosts extends React.Component {
             const difference = Math.floor(((this.state.currentTime - formattedDate) / 1000 / 60 / 60 / 24) << 0)
 
             return (
-                <div>
-                    <h3 className="sticky-top bg-white text-primary mb-2 pl-0">{item.subtitle}</h3>
-                    <h6 key={index} className="">
-                        {splitStack(item.stack)}
-                    </h6>
-                    <h6 className="text-secondary mb-4">{difference} day{difference === 1 ? "" : 's'} ago</h6>
+                <div className="blog-post">
+                    <h2 className="blog-post-title text-primary sticky-top bg-white mt-0">{item.subtitle}</h2>
+                    <h6 key={index}>{splitStack(item.stack)}</h6>
+                    <p className="blog-post-meta">{difference} day{difference === 1 ? "" : 's'} ago</p>
                     <div key={index} className="mb-5">
                         {splitParas(item.paragraphs)}
                         <hr />
@@ -104,8 +102,7 @@ class BlogPosts extends React.Component {
             )
         })
         return (
-
-            <div id="blog-col" className="mt-0 pl-5 mr-0 pr-0">
+            <div>
                 {blogPosts}
             </div>
 
