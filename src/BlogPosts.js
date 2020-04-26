@@ -4,6 +4,7 @@ import projectCards from './projects.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faPhp, faLaravel } from '@fortawesome/free-brands-svg-icons'
+import { faCodeBranch, faDatabase } from '@fortawesome/free-solid-svg-icons'
 
 
 class BlogPosts extends React.Component {
@@ -62,6 +63,12 @@ class BlogPosts extends React.Component {
                 }
                 else if (item === "Laravel") {
                     icon = <FontAwesomeIcon icon={faLaravel} />
+                }
+                else if (item === "Firebase") {
+                    icon = <FontAwesomeIcon icon={faCodeBranch} />
+                }
+                else if (item === "MySQL") {
+                    icon = <FontAwesomeIcon icon={faDatabase} />
                 }
             
                 return (
