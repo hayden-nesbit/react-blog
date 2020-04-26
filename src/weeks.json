@@ -1,6 +1,30 @@
 [
 
     {
+        "title": "Week 8",
+        "subtitle": "LARAVEL, PHP, & MySQL",
+        "date": "2020-04-26",
+        "paragraphs": [
+            "What are your thoughts about how far you have come? How has your Digital Literacy, Computational Thinking, and Adoption of Coding Culture increased?",
+            "Considering the short amount of time it's been, I think I've come very far. To think back just a few short weeks ago, I couldn't imagine even getting something to display on a screen. Now I have a decent grasp on various languages and frameworks, best practices within the coding world, as well as an increased capacity to think computationally.",
+            "How do you plan on continuing to grow those areas?",
+            "In the short term, I plan to continue to be diligent in learning for the rest of the bootcamp. Beyond that, I have several books flagged as to-read, as well as new relational avenues within the coding community to continue to get exposure, learn, and stay connected to new people, ideas, and best practices.",
+            "What are you struggling with the most in the Tech Stack so far and why?",
+            "Laravel has been the biggest challenge so far. I think this is mainly due to the complexity and breadth of it. There's A LOT to take in, become familiar with, and implement.",
+            "What were your main takeaways from the career fair?",
+            "",
+            "After making it through the tech stack, where do you think your current gaps are?",
+            "Looking back at the tech stack, I'd say my biggest gap is still pseudo-coding. I feel relatively confident with each language and framework in the stack, however, I'm limited in my use and implementation because I consistently fail to give solid preparation and thought to pseudo-coding."
+        ],
+        "stack": [
+            "Laravel", 
+            "PHP", 
+            "MySQL"
+        ]
+
+    },
+
+    {
         "title": "Week 7",
         "subtitle": "PHP, MySQL, & JAVASCRIPT",
         "date": "2020-04-18",
@@ -17,6 +41,11 @@
             "",
             "Find one library, framework, NPM package, and/or external web API you think you might want use for your final project.",
             ""
+        ],
+        "stack": [
+            "PHP", 
+            "MySQL", 
+            "JavaScript"
         ]
 
     },
@@ -37,7 +66,11 @@
            "Compared to week three, what are three ideas you might want to do for your final project? Are they the same, or have they changed now that you understand more about the technology and your limitations?",
            " "
         ],
-        "stack" : ""
+        "stack": [
+            "React", 
+            "Firebase",
+            "JavaScript"
+        ]
     },
 
     {
@@ -56,7 +89,12 @@
            "How do you feel now (week 5) compared to when you started?",
            "At this point in the bootcamp I feel fairly confident. I really like React and Bootstrap and feel like I'm growing a lot and understand what I'm doing. I feel comfortable in the command line, and I enjoy JavaScript but feel less confident there--I can figure out how to make things work, but not always the best way."
         ],
-        "stack" : ""
+        "stack": [
+            "React",
+            "Firebase", 
+            "JavaScript", 
+            "Bootstrap"      
+          ]
     },
 
     {
@@ -70,7 +108,12 @@
            " ",
            "Find one emerging JavaScript tool that you would like to learn more about or use in your final project."
         ],
-        "stack" : ""
+        "stack": [
+            "React",
+            "JavaScript", 
+            "Bootstrap",
+            "GitHub"
+        ]
     },
     
     {
@@ -85,7 +128,12 @@
            "What aspects about JavaScript are you interested in learning more about?",
            "As I wrap my head around arrays more and more, I'm beginning to see their utility and potential. All kinds of things can be stored in and accessed via arrays. This is a really useful tool for user input, storage, and retrieval."
         ],
-        "stack" : ""
+        "stack": [
+            "JavaScript", 
+            "Bootstrap",
+            "CSS",
+            "GitHub"
+        ]
     },
     
     {
@@ -102,7 +150,11 @@
             "What is one thing that programmers hate doing?",
             "Repeating themselves! This is why 'DRY' code is such an emphasis in programming; time saving by reusing code throughout a project is a great practice!"
         ],
-        "stack" : ""
+        "stack": [
+            "JavaScript", 
+            "Bootstrap",
+            "GitHub"
+        ]
     },
 
     {
@@ -121,7 +173,11 @@
             "What is one thing you would like to get better at in bootcamp?",
             "I think it’s going to be important for me personally to not have perfection as my goal, but rather progress. I prefer things neat, clean, and finished. But I also value learning and know that the learning process is seldom neat or clean, and never finished."
         ],
-        "stack" : ""
+        "stack": [
+            "Bootstrap", 
+            "CSS", 
+            "JavaScript"
+        ]
     },
 
     {
@@ -138,7 +194,12 @@
             "How did you overcome challenges?",
             "The challenges during prework were overcome by plodding. By that I mean simply coming back to the problems each day, giving them time and effort, and doing the work necessary to move forward. I don't think there's going to be any magic bullets with web development but rather--like anything else--it's going to come down to showing up each day and taking a few steps forward."
         ],
-        "stack" : ""
+        "stack": [
+            "JavaScript", 
+            "CSS", 
+            "Bootstrap",
+            "GitHub"
+        ]
     },
 
     {
@@ -151,7 +212,12 @@
             "What are some objects that your blog incorporates?",
             "In terms of the three tools’ ability to provide user experience, I’m excited to keep learning. JavaScript in particular seems to be a really powerful tool with endless possibilities for functionality and user experience. So far, my blog incorporates various objects to improve user experience. The main object being the navigation bar. It’s HTML and CSS code enable it to change color on click and hover, as well as incorporate dropdown sections under “Projects” and “Blog”. Also, the blog features a footer which contains two icons linked to my personal LinkedIn profile and Twitter page. In the future, I hope to implement JavaScript to loop through text on the home page (“Learning HTML”, “Learning CSS”, “Learning JavaScript”, etc.)."
         ],
-        "stack" : ""
+        "stack": [
+            "HTML", 
+            "CSS", 
+            "Bootstrap",
+            "GitHub"
+        ]
     },
 
     {
@@ -166,7 +232,12 @@
             "What are you excited or eager to learn more about?",
             "After playing around with this blog for a day or so, experimenting with fixed navigation bars, margin, gradient colors, etc., I’m eager to become more familiar with the capabilities of CSS. Specifically, I’m excited to learn more about the box model and how it can be used to incorporate features like drop down navigation bars and aside content. Wading into CSS this past week has increased my interest in and awareness of all the websites I frequent--I’m gaining a better eye for good design and usability!"
         ],
-        "stack" : ""
+        "stack": [
+            "HTML", 
+            "CSS", 
+            "JavaScript",
+            "GitHub"
+        ]
     },
 
     {
@@ -181,7 +252,9 @@
             "What are you excited or eager to learn more about?",
             "With the Command Line feeling a little more like home each day, I'm excited to continue uncovering its power. Beyond the CL, I'm eager to jump into html--the little bit I've picked up thus far has me itching to dive in deeper! (Specifically, how to make this text not run the length of the page!)"
         ],
-        "stack" : ""
+        "stack": [
+            "GitHub"
+        ]
     }
 
 

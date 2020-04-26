@@ -1,7 +1,10 @@
 import React from 'react'
 import blogWeeks from './weeks.json'
+import projectCards from './projects.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faPhp, faLaravel } from '@fortawesome/free-brands-svg-icons'
+
 
 class BlogPosts extends React.Component {
     constructor(props) {
@@ -33,6 +36,43 @@ class BlogPosts extends React.Component {
             })
         }
 
+        function splitStack(stack) {
+            return stack.map((item) => {
+                let icon = ''
+                if (item === "React") {
+                    icon = <FontAwesomeIcon icon={faReact} />
+                }
+                else if (item === "JavaScript") {
+                    icon = <FontAwesomeIcon icon={faJsSquare} />
+                }
+                else if (item === "Bootstrap") {
+                    icon = <FontAwesomeIcon icon={faBootstrap} />
+                }
+                else if (item === "HTML") {
+                    icon = <FontAwesomeIcon icon={faHtml5} />
+                }
+                else if (item === "CSS") {
+                    icon = <FontAwesomeIcon icon={faCss3Alt} />
+                }
+                else if (item === "GitHub") {
+                    icon = <FontAwesomeIcon icon={faGithub} />
+                }
+                else if (item === "PHP") {
+                    icon = <FontAwesomeIcon icon={faPhp} />
+                }
+                else if (item === "Laravel") {
+                    icon = <FontAwesomeIcon icon={faLaravel} />
+                }
+            
+                return (
+                    <div className="col-sm-2 fa-lg mt-2 pl-0 d-inline" >
+                        {icon}
+                    </div>
+                )
+
+            })
+        }
+
 
         const blogPosts = blogWeeks.map((item, index) => {
             const formattedDate = new Date(item.date)
@@ -40,7 +80,10 @@ class BlogPosts extends React.Component {
 
             return (
                 <div>
-                    <h4 className="text-primary mb-2 pl-0">{item.subtitle}</h4>
+                    <h3 className="text-primary mb-2 pl-0">{item.subtitle}</h3>
+                    <h6 key={index} className="">
+                    {splitStack(item.stack)}
+                    </h6>
                     <h6 className="text-secondary mb-4">{difference} day{difference === 1 ? "" : 's'} ago</h6>
                     <div key={index} className="mb-5">
                         {splitParas(item.paragraphs)}
@@ -52,11 +95,6 @@ class BlogPosts extends React.Component {
         })
         return (
             <div className="mt-5 pl-5 mr-0 pr-0">
-                <div className="d-inline p-1 float-right">
-                    <a className="pr-3" href="https://twitter.com/HaydenNesbit"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
-                    <a className="pr-3" href="https://www.linkedin.com/in/hayden-nesbit-b54a7485/"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
-                    <a href="https://github.com/hayden-nesbit?tab=repositories"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
-                </div>
                 <h1 className="mb-4">Blog</h1>
                 {blogPosts}
             </div>

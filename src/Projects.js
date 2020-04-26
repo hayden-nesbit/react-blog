@@ -7,35 +7,35 @@ import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faGithub } from '
 class Projects extends React.Component {
     render() {
 
-        function splitStack(stack) {
-            return stack.map((item) => {
-                let icon = ''
-                if (item === "React") {
-                    icon = <FontAwesomeIcon icon={faReact} />
-                }
-                else if (item === "JavaScript") {
-                    icon = <FontAwesomeIcon icon={faJsSquare} />
-                }
-                else if (item === "Bootstrap") {
-                    icon = <FontAwesomeIcon icon={faBootstrap} />
-                }
-                else if (item === "HTML") {
-                    icon = <FontAwesomeIcon icon={faHtml5} />
-                }
-                else if (item === "CSS") {
-                    icon = <FontAwesomeIcon icon={faCss3Alt} />
-                }
-                else if (item === "GitHub") {
-                    icon = <FontAwesomeIcon icon={faGithub} />
-                }
-                return (
-                    <div className="col-sm-2 fa-lg mt-2" >
-                        {icon}
-                    </div>
-                )
+        // function splitStack(stack) {
+        //     return stack.map((item) => {
+        //         let icon = ''
+        //         if (item === "React") {
+        //             icon = <FontAwesomeIcon icon={faReact} />
+        //         }
+        //         else if (item === "JavaScript") {
+        //             icon = <FontAwesomeIcon icon={faJsSquare} />
+        //         }
+        //         else if (item === "Bootstrap") {
+        //             icon = <FontAwesomeIcon icon={faBootstrap} />
+        //         }
+        //         else if (item === "HTML") {
+        //             icon = <FontAwesomeIcon icon={faHtml5} />
+        //         }
+        //         else if (item === "CSS") {
+        //             icon = <FontAwesomeIcon icon={faCss3Alt} />
+        //         }
+        //         else if (item === "GitHub") {
+        //             icon = <FontAwesomeIcon icon={faGithub} />
+        //         }
+        //         return (
+        //             <div className="col-sm-2 fa-lg mt-2" >
+        //                 {icon}
+        //             </div>
+        //         )
 
-            })
-        }
+        //     })
+        // }
 
         const projCard = projectCards.map((card, index) => {
 
