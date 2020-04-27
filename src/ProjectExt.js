@@ -67,12 +67,12 @@ class ProjectExt extends React.Component {
         })
 
         return (
-            <div className="container p-5">
+            <div className="container">
                 <div className="row">
-                    <div className="col-md-8 blog-main mt-2">
+                    <div className="col-md-8 blog-main mt-5">
                         {projCard}
                     </div>
-                    <aside className="col-md-4 blog-sidebar mt-1">
+                    <aside className="col-md-4 blog-sidebar mt-5">
                         <div className="p-4 mb-3 mt-2 bg-light rounded">
                             <div>
                                 <h4 className="font-italic">Elsewhere</h4>
