@@ -1,41 +1,13 @@
 import React from 'react'
-import blogWeeks from './weeks.json'
 import projectCards from './projects.json'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faPhp, faLaravel, faGit } from '@fortawesome/free-brands-svg-icons'
 import { faCodeBranch, faDatabase } from '@fortawesome/free-solid-svg-icons'
 
 
-class BlogPosts extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            currentTime: null
-        }
-    }
-
-
-    componentDidMount() {
-
-        this.setState({
-            currentTime: new Date()
-        })
-    }
-
-
-
+class ProjectExt extends React.Component {
     render() {
-
-        function splitParas(post) {
-            return post.map((item, index) => {
-                if (index % 2 === 0) {
-                    return <h5 key={index}>{item}</h5>
-                } else {
-                    return <p key={index}>{item}</p>
-                }
-            })
-        }
 
         function splitStack(stack) {
             return stack.map((item) => {
@@ -83,34 +55,40 @@ class BlogPosts extends React.Component {
             })
         }
 
-
-        const blogPosts = blogWeeks.map((item, index) => {
-        const formattedDate = new Date(item.date)
-        const difference = Math.floor(((this.state.currentTime - formattedDate) / 1000 / 60 / 60 / 24) << 0)
+        const projCard = projectCards.map((card, index) => {
 
             return (
-
-                    <div className="blog-post">
-                        <h2 className="blog-post-title text-primary sticky-top bg-white">{item.subtitle}</h2>
-                        <h6 key={index}>{splitStack(item.stack)}</h6>
-                        <p className="blog-post-meta">{difference} day{difference === 1 ? "" : 's'} ago</p>
-                        <div key={index} className="mb-5">
-                            {splitParas(item.paragraphs)}
-                        <hr />
-                        </div>
-                    </div>
-
-
+                <div className="mb-5">
+                    <h5><a key={index} href={card.link} target="_blank">{card.title}</a></h5>
+                    <p>{card.description}</p>
+                    <p>{splitStack(card.stack)}</p>
+                </div>
             )
         })
+
         return (
-            <div>
-                {blogPosts}
+            <div className="container p-5">
+                <div className="row">
+                    <div className="col-md-8 blog-main mt-2">
+                        {projCard}
+                    </div>
+                    <aside className="col-md-4 blog-sidebar mt-1">
+                        <div className="p-4 mb-3 mt-2 bg-light rounded">
+                            <div>
+                                <h4 className="font-italic">Elsewhere</h4>
+                            </div>
+                            <div className="d-inline">
+                                <a className="pr-4" href="https://github.com/hayden-nesbit?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
+                                <a className="pr-4" href="https://www.linkedin.com/in/hayden-nesbit-b54a7485/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+                                <a className="pr-4" href="https://twitter.com/HaydenNesbit" target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
             </div>
 
         )
     }
 }
 
-export default BlogPosts
-
+export default ProjectExt;

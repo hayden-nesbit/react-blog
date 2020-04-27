@@ -17,7 +17,7 @@ class Projects extends React.Component {
         })
 
         return (
-            <div>
+            <div id="projContainer">
                 <div className="p-4 mb-3 mt-2 bg-light rounded">
                 <div>
                     <h4 className="font-italic">Elsewhere</h4>
@@ -41,6 +41,4 @@ class Projects extends React.Component {
 }
 
 export default Projects
-
-    // {splitStack(card.stack)}
 
