@@ -1,12 +1,11 @@
 import React from 'react';
 import BlogPosts from './BlogPosts'
-import ProjNav from './ProjectNav'
 import Projects from './Projects'
 import Footer from './Footer'
-import Home from './Home'
+import About from './About'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TopNav from './TopNav'
 import './Blog.css'
+import Navbar from './Navbar'
 
 class App extends React.Component {
   constructor(props) {
@@ -25,26 +24,27 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-
-
-        {/* {
-          this.state.currentPage === "Home" ?
-            <Home />
-            :
-            null
-        } */}
-
+      <Navbar 
+        updatePage={this.updatePage}
+      />
         {
           this.state.currentPage === "Blog" ?
+            <About />
+            :
+            null
+        }
+
+        {
+          this.state.currentPage === "About" ?
               <main role="main" className="container">
-              <h1 className="pb-3 mb-2 mt-4 border-bottom">
+              {/* <h1 className="pb-3 mb-2 mt-4 border-bottom">
                     Blog
-                </h1>
+                </h1> */}
                 <div className="row">
-                  <div id="blog-block" className="col-md-8 blog-main">
+                  <div id="blog-block" className="col-md-8 blog-main mt-5">
                     <BlogPosts />
                   </div>
-                  <aside className="col-md-4 blog-sidebar">
+                  <aside className="col-md-4 blog-sideba mt-5">
                     <Projects />
                   </aside>
                 </div>
@@ -55,13 +55,13 @@ class App extends React.Component {
             null
         }
 
-        {/* {
+        {
           this.state.currentPage === "Projects" ?
             <Projects />
 
             :
             null
-        } */}
+        }
         <Footer />
       </div>
     )

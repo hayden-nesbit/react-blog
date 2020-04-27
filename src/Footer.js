@@ -7,6 +7,7 @@ class Footer extends React.Component {
         return (
             <footer className="footer mt-auto py-4 bg-dark">
             <div className="container text-center">
+              {/* <h6 className="text-white">Hayden Nesbit</h6> */}
               <span className="text-white">Awesome Inc. 2020 Bootcamp</span>
             </div>
           </footer>

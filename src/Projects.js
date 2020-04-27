@@ -23,9 +23,9 @@ class Projects extends React.Component {
                     <h4 className="font-italic">Elsewhere</h4>
                 </div>
                 <div className="d-inline">
-                    <a className="pr-4" href="https://github.com/hayden-nesbit?tab=repositories"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
-                    <a className="pr-4" href="https://www.linkedin.com/in/hayden-nesbit-b54a7485/"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
-                    <a className="pr-4" href="https://twitter.com/HaydenNesbit"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+                    <a className="pr-4" href="https://github.com/hayden-nesbit?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
+                    <a className="pr-4" href="https://www.linkedin.com/in/hayden-nesbit-b54a7485/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+                    <a className="pr-4" href="https://twitter.com/HaydenNesbit" target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
                 </div>
                 </div>
 
