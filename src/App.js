@@ -39,10 +39,10 @@ class App extends React.Component {
           this.state.currentPage === "Blog" ?
               <main role="main" className="container">
                 <div className="row">
-                  <div id="blog-block" className="col-md-8 blog-main mt-5">
+                  <div id="blog-block" className="col-md-8 blog-main mt-4">
                     <BlogPosts />
                   </div>
-                  <aside className="col-md-4 blog-sidebar mt-5">
+                  <aside className="col-md-4 blog-sidebar mt-4">
                     <Projects />
                   </aside>
                 </div>

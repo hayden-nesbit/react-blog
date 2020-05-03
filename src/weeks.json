@@ -1,5 +1,33 @@
 [
 
+  
+    
+    {
+        "title": "Week 9",
+        "subtitle": "LARAVEL, MySQL, & REACT",
+        "date": "2020-05-03",
+        "paragraphs": [
+            "What are your thoughts about Laravel and React?",
+            "I really like them together. I loved React and am happy to be diving back in, and I'm getting more familiar with Laravel. The two together seem like they can make some powerful things happen!",
+            "What is one thing that you love about React or Laravel that you used to hate / didn't understand how to use?",
+            "Passing props and state within React components really confused me for a while, but now it's one of my favorite things about it. I still struggle at times, but it makes a lot of sense. I'm particularly excited about getting more comfortable using state/props within reactstrap components as well.",
+            "Compared to weeks three and six, what are three ideas you might want to do for your final project? Are they the same, or have they changed now that you understand more about the technology and your limitations?",
+            "I'm fairly solid on my final project idea. It's been forming since my experiences in grad school, as well as some of the API and React work we've done. In seminary, I always struggled to stay on top of all the required reading with all the other assignments--I wanted a way to choose a book or books, set a desired end date, and be given a daily reading plan with pages per day in order to hit the goal. I'd like to make this app with a Google Books API to be able to not only keep track of WHICH books you're reading, but be able to set an end date and make sure you read enough each day to get there.",
+            "What cool new features have you learned about from the languages and frameworks you already know that will improve your workflow / add slick features to your final project?",
+            "I really love bootstrap, and am slowly getting into reactstrap. And this week, getting into Laravel, it seems there's a lot of really cool/helpful built-ins in terms of login/registration packages that will be very useful.",
+            "How many jobs have you applied to?",
+            "None yet, but I've done a lot of work on LinkedIn, my resume, and have corresponded with a friend who is planning to recommend me for a position where he currently works.",
+            "Look back on the old questions to see if any of them would be good to answer this week compared to week 1.",
+            ""
+        ],
+        "stack": [
+            "Laravel", 
+            "MySQL",
+            "React"
+        ]
+
+    },
+
     {
         "title": "Week 8",
         "subtitle": "LARAVEL, PHP, & MySQL",
