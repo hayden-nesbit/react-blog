@@ -57,7 +57,7 @@ function TopNav(props) {
         return (
             <Nav>
                 <NavItem>
-                    <NavLink key={index} className="text-white pl-3"
+                    <NavLink key={index} className="text-dark pl-3"
                         onClick={() => props.updatePage(link)}
                         href="#"
                     >
@@ -69,13 +69,13 @@ function TopNav(props) {
 
 
     return (
-            <div className="bg-dark p-3">
+            <div className="bg-white p-2 border-bottom">
                 <Navbar light expand="md">
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav>
                             <NavItem>
-                                <NavLink className="text-white"><h4>Hayden Nesbit</h4></NavLink>
+                                <NavLink className="text-dark"><h4>Hayden Nesbit</h4></NavLink>
                             </NavItem>
                         </Nav>
                         {navLinksinHTML}

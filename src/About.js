@@ -7,7 +7,7 @@ class About extends React.Component {
     render() {
         return (
             <div id="famImg" className="container">
-                <div className="row">
+                <div className="row mt-3">
                     <div className="col mt-5 text-center">
                         <img src={img} />
                         <p className="mt-4">A blog-in-progress documenting my growth <br /> as a Full-Stack Developer.</p>
