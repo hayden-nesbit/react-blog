@@ -1,5 +1,24 @@
 [
 
+    {
+        "title": "Week 10",
+        "subtitle": "FINAL PROJECT: Sprint 1",
+        "date": "2020-05-09",
+        "paragraphs": [
+            "What are your thoughts about the Final Project?",
+            "After sprint 1 complete, I'm excited about the final project. I think it solves a real (albeit small) problem in an area I'm passionate about and I feel confident that I'm equipped with the tools to make it happen.",
+            "What do you think you will struggle with in completing the Final Project? Where will you excel?",
+            "So far my main struggle has been setting up the necessary database. Outside of that, I think design will be a strong point of this project. Part of this is due to the Google Books API I'm using--it's a great resource that provides a lot of quality data.",
+            "What are your opinions on the Agile Methodology? Do you think it takes up time? Do you think large scale projects can be completed without it?",
+            "I'm sold on Agile development! It's made a huge difference in terms of preparation and providing a structure for work. There's been some bumps--learning how to write stories, point them accurately, implementing story spikes, etc.--but it's definitely worth the time, all the more important as the size of the project grows. "
+        ],
+        "stack": [
+            "Laravel", 
+            "MySQL",
+            "React"
+        ]
+
+    },
   
     
     {

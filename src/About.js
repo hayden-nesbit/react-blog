@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import img from './NesbitFam2019.png'
+import img from './NesbitSpring2019.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
@@ -8,7 +8,7 @@ class About extends React.Component {
         return (
             <div id="famImg" className="container">
                 <div className="row mt-3">
-                    <div className="col mt-5 text-center">
+                    <div className="col mt-4 text-center">
                         <img src={img} />
                         <p className="mt-4">A blog-in-progress documenting my growth <br /> as a Full-Stack Developer.</p>
                         <div className="d-inline">
