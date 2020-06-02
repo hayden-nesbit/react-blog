@@ -1,72 +1,87 @@
 [
 
     {
+        "title": "Bookmark",
+        "date": "2020-04-11",
+        "description": "Final project: a book tracking web app using React, JavaScript, Laravel, Firebase, and GoogleCloud",
+        "link": "https://bookmark-32e51.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Laravel",
+            "Firebase"
+        ]
+    },
+    {
         "title": "Puzzle Slider",
         "date": "2020-04-11",
-        "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
+        "description": "Dynamic Puzzle game utilizing React, JavaScript, Bootstrap, & Firebase",
         "link": "https://react-puzzle-b0335.web.app/",
         "stack": [
             "React", 
             "JavaScript", 
-            "Bootstrap"
+            "Bootstrap",
+            "Firebase"
         ]
     },
 
     {
         "title": "Restaurant Menu",
         "date": "2020-04-11",
-        "description": "Dynamic Puzzle game utilizing React, JavaScript, and Bootstrap",
-        "link": "https://hayden-nesbit.github.io/react-menu/",
+        "description": "Dynamic mock restaurant menu utilizing a menu API, refactored using React, JavaScript, and Firebase",
+        "link": "https://restaurant-menu-bfb13.web.app/",
         "stack": [
             "React", 
             "JavaScript", 
-            "Bootstrap"
+            "Bootstrap",
+            "Firebase"
         ]
     },
 
     {
         "title": "To-do List",
         "date": "2020-03-30",
-        "description": "To-do List app utilizing Local Storage, State, and JavaScript",
-        "link": "https://hayden-nesbit.github.io/to-do-list/",
+        "description": "To-do List app refactored using React, JavaScript, Laravel, & GoogleCloud",
+        "link": "https://to-do-app-fb7fd.web.app/",
         "stack": [
             "React", 
+            "Firebase",
             "JavaScript", 
             "Bootstrap",
-            "GitHub"
+            "Laravel"
         ]
     },
 
     {
         "title": "Tic-Tac-Toe",
         "date": "2020-04-11",
-        "description": "Dynamic Tic-Tac-Toe game utilizing Local Storage, State, and JavaScript",
-        "link": "https://hayden-nesbit.github.io/tic-tac-toe/",
+        "description": "Dynamic Tic-Tac-Toe game refactored using React and JavaScript, utilizing state",
+        "link": "https://tic-tac-toe-774e2.web.app/",
         "stack": [
+            "React",
             "JavaScript", 
             "Bootstrap",
-            "CSS",
-            "GitHub"
+            "Firebase"
         ]
     },
 
     {
         "title": "Calculator",
         "date": "2020-04-11",
-        "description": "Functioning calculator utilizing state and JavaScript",
-        "link": "https://hayden-nesbit.github.io/calculator/",
+        "description": "Mac calculator clone refactored using React, JavaScript, and Firebase",
+        "link": "https://calculator-b0efa.web.app/",
         "stack": [
+            "React",
             "JavaScript", 
             "Bootstrap",
-            "CSS",
-            "GitHub"
+            "Firebase"
         ]
     },
 
     {
         "title": "Bouncing Balls",
         "date": "2020-04-11",
-        "description": "fill in",
+        "description": "A webpage that simulates bouncing balls on an HTML canvas using physics, math, and JavaScript Objects and Classes",
         "link": "https://hayden-nesbit.github.io/bouncing-balls/",
         "stack": [
             "JavaScript", 
@@ -78,12 +93,13 @@
     {
         "title": "Weather App",
         "date": "2020-02-25",
-        "description": "Interactive weather app utilizing JavaScript and APIs",
-        "link": "https://hayden-nesbit.github.io/weather-app/",
+        "description": "Interactive weather app refactored using React and JavaScript, utilizing a weather API",
+        "link": "https://weather-app-8176c.web.app/",
         "stack": [
+            "React", 
             "Bootstrap", 
-            "CSS", 
-            "JavaScript"
+            "JavaScript",
+            "Firebase"
         ]
     },
 
@@ -91,20 +107,20 @@
     {
         "title": "Mind-Reader",
         "date": "2020-02-15",
-        "description": "Interactive mind reading app built with JavaScript",
-        "link": "https://hayden-nesbit.github.io/mind-reader/",
+        "description": "Interactive mind reading app refactored using React and JavaScript",
+        "link": "https://mind-reader-60c3a.web.app/",
         "stack": [
-            "JavaScript", 
-            "CSS", 
-            "Bootstrap",
-            "GitHub"
+            "React", 
+            "Bootstrap", 
+            "JavaScript",
+            "Firebase"
         ]
     },
 
     {
         "title": "Campaign Website",
         "date": "2020-02-15",
-        "description": "fill in",
+        "description": "A mock campaign website featuring a fictional character utilizing Bootstrap",
         "link": "https://hayden-nesbit.github.io/campaign-components/",
         "stack": [
             "HTML", 
@@ -115,22 +131,9 @@
     },
 
     {
-        "title": "Countdown Timer",
-        "date": "2020-02-15",
-        "description": "fill in",
-        "link": "https://hayden-nesbit.github.io/countdown-timer/",
-        "stack": [
-            "HTML", 
-            "CSS", 
-            "JavaScript",
-            "GitHub"
-        ]
-    },
-
-    {
         "title": "Digital Clock",
         "date": "2020-02-15",
-        "description": "fill in",
+        "description": "A webpage that displays the current time, in digital clock format",
         "link": "https://hayden-nesbit.github.io/digital-clock/",
         "stack": [
             "HTML", 

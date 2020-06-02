@@ -14,8 +14,7 @@ class BlogPosts extends React.Component {
             currentTime: null
         }
     }
-
-
+    
     componentDidMount() {
 
         this.setState({
@@ -41,28 +40,28 @@ class BlogPosts extends React.Component {
             return stack.map((item) => {
                 let icon = ''
                 if (item === "React") {
-                    icon = <FontAwesomeIcon icon={faReact} />
+                    icon = <FontAwesomeIcon style={{color: "#61DBFB"}} icon={faReact} />
                 }
                 else if (item === "JavaScript") {
-                    icon = <FontAwesomeIcon icon={faJsSquare} />
+                    icon = <FontAwesomeIcon style={{color: "#EAD64E"}} icon={faJsSquare} />
                 }
                 else if (item === "Bootstrap") {
-                    icon = <FontAwesomeIcon icon={faBootstrap} />
+                    icon = <FontAwesomeIcon style={{color: "#543B79"}} icon={faBootstrap} />
                 }
                 else if (item === "HTML") {
-                    icon = <FontAwesomeIcon icon={faHtml5} />
+                    icon = <FontAwesomeIcon  style={{color: "#E54C21"}} icon={faHtml5} />
                 }
                 else if (item === "CSS") {
-                    icon = <FontAwesomeIcon icon={faCss3Alt} />
+                    icon = <FontAwesomeIcon style={{color: "#264EE4"}} icon={faCss3Alt} />
                 }
                 else if (item === "GitHub") {
-                    icon = <FontAwesomeIcon icon={faGithub} />
+                    icon = <FontAwesomeIcon style={{color: ""}} icon={faGithub} />
                 }
                 else if (item === "PHP") {
-                    icon = <FontAwesomeIcon icon={faPhp} />
+                    icon = <FontAwesomeIcon style={{color: "#8690BA"}} icon={faPhp} />
                 }
                 else if (item === "Laravel") {
-                    icon = <FontAwesomeIcon icon={faLaravel} />
+                    icon = <FontAwesomeIcon style={{color: "#E62D1F"}} icon={faLaravel} />
                 }
                 else if (item === "Firebase") {
                     icon = <FontAwesomeIcon icon={faCodeBranch} />
@@ -71,7 +70,7 @@ class BlogPosts extends React.Component {
                     icon = <FontAwesomeIcon icon={faDatabase} />
                 }
                 else if (item === "Git") {
-                    icon = <FontAwesomeIcon icon={faGit} />
+                    icon = <FontAwesomeIcon style={{color: "#E74D33"}} icon={faGit} />
                 }
 
                 return (
@@ -91,7 +90,7 @@ class BlogPosts extends React.Component {
             return (
 
                     <div className="blog-post">
-                        <h2 className="blog-post-title text-primary sticky-top bg-white">{item.subtitle}</h2>
+                        <h2 className="blog-post-title sticky-top bg-white">{item.subtitle}</h2>
                         <h6 key={index}>{splitStack(item.stack)}</h6>
                         <p className="blog-post-meta">{difference} day{difference === 1 ? "" : 's'} ago</p>
                         <div key={index} className="mb-5">

@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faPhp, faLaravel, faGit } from '@fortawesome/free-brands-svg-icons'
 import { faCodeBranch, faDatabase } from '@fortawesome/free-solid-svg-icons'
+import Elsewhere from './Elsewhere.js'
+import './Project.css'
 
 
 class ProjectExt extends React.Component {
@@ -13,28 +15,28 @@ class ProjectExt extends React.Component {
             return stack.map((item) => {
                 let icon = ''
                 if (item === "React") {
-                    icon = <FontAwesomeIcon icon={faReact} />
+                    icon = <FontAwesomeIcon style={{color: "#61DBFB"}} icon={faReact} />
                 }
                 else if (item === "JavaScript") {
-                    icon = <FontAwesomeIcon icon={faJsSquare} />
+                    icon = <FontAwesomeIcon style={{color: "#EAD64E"}} icon={faJsSquare} />
                 }
                 else if (item === "Bootstrap") {
-                    icon = <FontAwesomeIcon icon={faBootstrap} />
+                    icon = <FontAwesomeIcon style={{color: "#543B79"}} icon={faBootstrap} />
                 }
                 else if (item === "HTML") {
-                    icon = <FontAwesomeIcon icon={faHtml5} />
+                    icon = <FontAwesomeIcon style={{color: "#E54C21"}} icon={faHtml5} />
                 }
                 else if (item === "CSS") {
-                    icon = <FontAwesomeIcon icon={faCss3Alt} />
+                    icon = <FontAwesomeIcon style={{color: "#264EE4"}} icon={faCss3Alt} />
                 }
                 else if (item === "GitHub") {
                     icon = <FontAwesomeIcon icon={faGithub} />
                 }
                 else if (item === "PHP") {
-                    icon = <FontAwesomeIcon icon={faPhp} />
+                    icon = <FontAwesomeIcon style={{color: "#8690BA"}} icon={faPhp} />
                 }
                 else if (item === "Laravel") {
-                    icon = <FontAwesomeIcon icon={faLaravel} />
+                    icon = <FontAwesomeIcon style={{color: "#E62D1F"}} icon={faLaravel} />
                 }
                 else if (item === "Firebase") {
                     icon = <FontAwesomeIcon icon={faCodeBranch} />
@@ -43,7 +45,7 @@ class ProjectExt extends React.Component {
                     icon = <FontAwesomeIcon icon={faDatabase} />
                 }
                 else if (item === "Git") {
-                    icon = <FontAwesomeIcon icon={faGit} />
+                    icon = <FontAwesomeIcon style={{color: "#E74D33"}} icon={faGit} />
                 }
 
                 return (
@@ -58,8 +60,8 @@ class ProjectExt extends React.Component {
         const projCard = projectCards.map((card, index) => {
 
             return (
-                <div className="mb-5">
-                    <h5><a key={index} href={card.link} target="_blank">{card.title}</a></h5>
+                <div id="project-block" className="mb-5">
+                    <h4><a style={{color: "#212529"}} key={index} href={card.link} target="_blank">{card.title}</a></h4>
                     <p>{card.description}</p>
                     <p>{splitStack(card.stack)}</p>
                 </div>
@@ -69,20 +71,11 @@ class ProjectExt extends React.Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-md-8 blog-main mt-4">
+                    <div id="project-block" className="col-md-8 blog-main mt-4">
                         {projCard}
                     </div>
                     <aside className="col-md-4 blog-sidebar mt-4">
-                        <div className="p-4 mb-3 mt-2 bg-light rounded">
-                            <div>
-                                <h4 className="font-italic">Elsewhere</h4>
-                            </div>
-                            <div className="d-inline">
-                                <a className="pr-4" href="https://github.com/hayden-nesbit?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
-                                <a className="pr-4" href="https://www.linkedin.com/in/hayden-nesbit-b54a7485/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
-                                <a className="pr-4" href="https://twitter.com/HaydenNesbit" target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
-                            </div>
-                        </div>
+                        <Elsewhere />
                     </aside>
                 </div>
             </div>

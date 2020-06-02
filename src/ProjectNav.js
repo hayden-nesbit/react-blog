@@ -22,7 +22,7 @@ const ProjNav = (props) => {
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav vertical>
-                        <h3>Projects</h3>
+                        <h3>Portfolio</h3>
                         {projCard}
                     </Nav>
                 </Collapse>

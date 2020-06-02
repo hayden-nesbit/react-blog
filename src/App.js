@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Blog.css'
 import Navbar from './Navbar'
 import ProjectExt from './ProjectExt'
+import Resume from './resume.pdf'
 
 class App extends React.Component {
   constructor(props) {
@@ -54,7 +55,14 @@ class App extends React.Component {
         }
 
         {
-          this.state.currentPage === "Projects" ?
+          this.state.currentPage === "Resume" ?
+           <Resume />
+            :
+            null
+        }
+
+        {
+          this.state.currentPage === "Portfolio" ?
             <ProjectExt />
 
             :

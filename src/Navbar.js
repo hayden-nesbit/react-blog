@@ -1,47 +1,6 @@
-// import React from "react"
-
-// class Navbar extends React.Component {
-//     constructor(props) {
-//         super(props)
-//         this.navbarLinks = [
-//             "About",
-//             "Blog",
-//             "Projects"
-//         ]
-//     }
-
-//     render() {
-//         const navLinksinHTML = this.navbarLinks.map((link, index) => {
-//             return (
-//                 <React.Fragment key={index}>
-//                     <a className="text-white pl-5"
-//                         onClick={() => this.props.updatePage(link)}
-//                         href="#"
-
-//                     >
-//                         {link}
-//                     </a>
-//                 </React.Fragment>
-//             )
-//         })
-//         return (
-//             <div className="bg-dark p-3">
-//                 <div className="d-inline-flex">
-//                 <h3 className="text-white">Hayden Nesbit</h3>
-//                    <h6 className="pt-2">{navLinksinHTML}</h6> 
-//                 </div>
-//             </div>
-//         )
-//     }
-// }
-
-// export default Navbar
-
-
-
-
 import React, { useState } from 'react';
 import { Navbar, Nav, NavItem, NavLink, NavbarToggler, Collapse } from 'reactstrap';
+import Pdf from './resume.pdf'
 
 function TopNav(props) {
 
@@ -51,15 +10,18 @@ function TopNav(props) {
     let navbarLinks = [
         "About",
         "Blog",
-        "Projects"
+        "Resume",
+        "Portfolio"
     ]
     const navLinksinHTML = navbarLinks.map((link, index) => {
+        let page = link === "Resume" ? Pdf : link
+
         return (
             <Nav>
                 <NavItem>
                     <NavLink key={index} className="text-dark pl-3"
                         onClick={() => props.updatePage(link)}
-                        href="#"
+                        href={page}
                     >
                         <h6>{link}</h6>
                     </NavLink>
