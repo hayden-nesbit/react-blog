@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import BlogPosts from './BlogPosts'
 import Projects from './Projects'
 import Footer from './Footer'
@@ -9,35 +9,30 @@ import Navbar from './Navbar'
 import ProjectExt from './ProjectExt'
 import Resume from './resume.pdf'
 
-class App extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = { currentPage: "About" }
-    this.updatePage = this.updatePage.bind(this)
+function App() {
+
+  const [view, setView] = useState("About")
+
+  function updatePage(newPage) {
+    setView(newPage)
   }
 
-  updatePage(newPage) {
-    console.log(newPage)
-    this.setState({
-      currentPage: newPage
-    })
-  }
 
-  render() {
     return (
       <div className="App">
       <Navbar 
-        updatePage={this.updatePage}
+        updatePage={updatePage}
+        view={view}
       />
         {
-          this.state.currentPage === "About" ?
+          view === "About" ?
             <About />
             :
             null
         }
 
         {
-          this.state.currentPage === "Blog" ?
+          view === "Blog" ?
               <main role="main" className="container">
                 <div className="row">
                   <div id="blog-block" className="col-md-8 blog-main mt-4">
@@ -55,14 +50,14 @@ class App extends React.Component {
         }
 
         {
-          this.state.currentPage === "Resume" ?
+          view === "Resume" ?
            <Resume />
             :
             null
         }
 
         {
-          this.state.currentPage === "Portfolio" ?
+          view === "Portfolio" ?
             <ProjectExt />
 
             :
@@ -72,7 +67,7 @@ class App extends React.Component {
       </div>
     )
   };
-}
+
 
 export default App;
 

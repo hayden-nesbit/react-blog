@@ -6,10 +6,10 @@ import { faReact, faJsSquare, faBootstrap, faHtml5, faCss3Alt, faPhp, faLaravel,
 import { faCodeBranch, faDatabase } from '@fortawesome/free-solid-svg-icons'
 import Elsewhere from './Elsewhere.js'
 import './Project.css'
+import Fb from './firebase.png'
 
 
-class ProjectExt extends React.Component {
-    render() {
+function ProjectExt() {
 
         function splitStack(stack) {
             return stack.map((item) => {
@@ -39,10 +39,10 @@ class ProjectExt extends React.Component {
                     icon = <FontAwesomeIcon style={{color: "#E62D1F"}} icon={faLaravel} />
                 }
                 else if (item === "Firebase") {
-                    icon = <FontAwesomeIcon icon={faCodeBranch} />
+                    icon = <FontAwesomeIcon icon={faCodeBranch} style={{color: "#F99504"}}/>
                 }
                 else if (item === "MySQL") {
-                    icon = <FontAwesomeIcon icon={faDatabase} />
+                    icon = <FontAwesomeIcon icon={faDatabase} style={{color: "#686A71"}}/>
                 }
                 else if (item === "Git") {
                     icon = <FontAwesomeIcon style={{color: "#E74D33"}} icon={faGit} />
@@ -60,7 +60,7 @@ class ProjectExt extends React.Component {
         const projCard = projectCards.map((card, index) => {
 
             return (
-                <div id="project-block" className="mb-5">
+                <div className="mb-5">
                     <h4><a style={{color: "#212529"}} key={index} href={card.link} target="_blank">{card.title}</a></h4>
                     <p>{card.description}</p>
                     <p>{splitStack(card.stack)}</p>
@@ -72,7 +72,9 @@ class ProjectExt extends React.Component {
             <div className="container">
                 <div className="row">
                     <div id="project-block" className="col-md-8 blog-main mt-4">
+                    <div className="row">
                         {projCard}
+                    </div>
                     </div>
                     <aside className="col-md-4 blog-sidebar mt-4">
                         <Elsewhere />
@@ -82,6 +84,6 @@ class ProjectExt extends React.Component {
 
         )
     }
-}
+
 
 export default ProjectExt;

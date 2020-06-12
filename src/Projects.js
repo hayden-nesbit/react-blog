@@ -5,8 +5,7 @@ import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-ic
 import Elsewhere from './Elsewhere.js'
 
 
-class Projects extends React.Component {
-    render() {
+function Projects() {
 
         const projCard = projectCards.map((card, index) => {
 
@@ -29,7 +28,7 @@ class Projects extends React.Component {
             </div>
         )
     }
-}
+
 
 export default Projects
 

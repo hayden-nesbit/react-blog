@@ -9,7 +9,8 @@
             "React", 
             "JavaScript", 
             "Laravel",
-            "Firebase"
+            "Firebase", 
+            "MySQL"
         ]
     },
     {
@@ -48,7 +49,8 @@
             "Firebase",
             "JavaScript", 
             "Bootstrap",
-            "Laravel"
+            "Laravel",
+            "MySQL"
         ]
     },
 
@@ -133,12 +135,13 @@
     {
         "title": "Digital Clock",
         "date": "2020-02-15",
-        "description": "A webpage that displays the current time, in digital clock format",
-        "link": "https://hayden-nesbit.github.io/digital-clock/",
+        "description": "A webpage that displays the current time in digital clock format, refactored using React.",
+        "link": "https://digital-clock-850c2.web.app/",
         "stack": [
-            "HTML", 
+            "React", 
             "CSS", 
             "JavaScript",
+            "Firebase",
             "GitHub"
         ]
     }

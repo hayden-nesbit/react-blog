@@ -1,5 +1,36 @@
 [
     {
+        "title": "Week 13",
+        "subtitle": "Post-Bootcamp",
+        "date": "2020-06-08",
+        "paragraphs": [
+            "Have your planned out iteration 2 of your final project yet? Completed? Iteration 3?!",
+            "I've gone through at least 2 interations of my final projects. Spent the past week fixes the last of a few bugs. As it stands now, it's all working code, though not as responsive as I'd like. I'd like to add a few new features over the coming weeks as well.",
+            "Have you caught up and finished every item from your backlog (any unfinished projects, bugs, things you just know need to be cleaned up)?",
+            "The backlog for my final project is complete. There's one nagging bug that I'm still working on. Outside of that, I'm planning to start a couple side projects to add to my GitHub!",
+            "Added any new projects to your resume / GitHub yet?",
+            "Hopefully by weeks end I'll have atleast one new project in the works. ",
+            "How many jobs have you applied to?",
+            "So far I've applied to 4 jobs. I plan to follow up with each this week and continue searching and applying to more.",
+            "Have you been refining your resume / cover letter for the job?",
+            "Yes. I have a resume I feel good about, and am taking the time to update cover letters for each job applied for.",
+            "Have you been trying to learn the tech stack / language that a specific company uses?",
+            "Not focused on any specific company, but I've been diving deeper into React. I hope to really master it. Beyond that, I've read about TypeScript being a popular language, so I want to atleast investigate that!"
+        ],
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Firebase",
+            "React",
+            "Bootstrap",
+            "PHP",
+            "Laravel",
+            "MySQL",
+            "Git"
+        ]
+    },
+    {
         "title": "Week 12",
         "subtitle": "Bootcamp Recap",
         "date": "2020-05-23",
@@ -18,7 +49,7 @@
             "Bootstrap",
             "PHP",
             "Laravel",
-            "MySQL", 
+            "MySQL",
             "Git"
         ]
     },
