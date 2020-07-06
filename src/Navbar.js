@@ -34,7 +34,7 @@ function TopNav(props) {
     return (
             <div className="bg-dark  p-2 border-bottom">
                 <Navbar light expand="md">
-                <NavbarBrand><h3 id="logo" className="mt-2 ml-1"><b>HN</b></h3></NavbarBrand>
+                <NavbarBrand><h3 id="logo" className="mt-2 ml-1 text-white"><b>HN</b></h3></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav>

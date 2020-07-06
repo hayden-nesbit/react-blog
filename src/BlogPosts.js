@@ -84,6 +84,7 @@ function BlogPosts() {
                 <h6 key={index}>{splitStack(item.stack)}</h6>
                 <p className="blog-post-meta">{difference} day{difference === 1 ? "" : 's'} ago</p>
                 <div key={index} className="mb-5">
+                    {item.link ? <a href="https://foodie-33619.web.app/" target="_blank">Foodie App</a> : null}
                     {splitParas(item.paragraphs)}
                     <hr />
                 </div>

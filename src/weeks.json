@@ -1,5 +1,20 @@
 [
     {
+        "title": "Job Search",
+        "subtitle": "Ionic-React Project",
+        "date": "2020-07-06",
+        "link": "https://foodie-33619.web.app/",
+        "paragraphs": [
+            "",
+            "I was recently given a coding prompt to assess my development skills. The prompt was for a restaurant crowd-sourcing app. The tech-stack for the app included TypeScript and Ionic--a language and framework I did not know--and I had one week to complete it. (If you want to see the app, click the link above.",
+            "",
+            "I ended up completing it in a few days, though I struggled with various aspects of TypeScript and Ionic. I'm a big fan of React, so when I saw Ionic and React can be used together, I was excited. But one major difference--one I never did figure out--was passing props from one component to another. Unfortunately, my 'completed' app is a single component project due to my inability to pass props. However, this is definitely something I'm going to research further and figure out.",
+            "",
+            "Besides the props issue, I also hit some other speed bumps: TypeScript is insistent on having you declare 'types' when empty variables are first initialized. And when working with arrays of objects, this was a little tricky at first. But in the end, I have a functioning app with a tech stack I didn't know a week ago. This was a great learning experience and sparked my interest in both TypeScript and Ionic. I look forward to learning more, going back to this project's repo, and refactoring as I get past some of the things that stumped me."
+        ],
+        "stack": []
+    },
+    {
         "title": "Week 13",
         "subtitle": "Post-Bootcamp",
         "date": "2020-06-08",

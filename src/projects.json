@@ -14,6 +14,28 @@
         ]
     },
     {
+        "title": "Sorting Algorithms",
+        "date": "2020-05-25",
+        "description": "A dynamically rendered web page to show and become familiar with various sorting algorithms. Instructions included in Github repo for outside contributions.",
+        "link": "https://sorting-algorithms-59256.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Firebase"
+        ]
+    },
+    {
+        "title": "Quizzie",
+        "date": "2020-05-17",
+        "description": "A mobile-first quiz app using React, JavaScript, Firebase, and a trivia API",
+        "link": "https://quizzie-61c5c.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Firebase"
+        ]
+    },
+    {
         "title": "Puzzle Slider",
         "date": "2020-04-11",
         "description": "Dynamic Puzzle game utilizing React, JavaScript, Bootstrap, & Firebase",
@@ -129,6 +151,17 @@
             "CSS", 
             "Bootstrap",
             "GitHub"
+        ]
+    },
+    {
+        "title": "Countdown Timer",
+        "date": "2020-05-17",
+        "description": "A countdown timer with user date setting via react-date-picker",
+        "link": "https://countdown-timer-d0024.web.app/",
+        "stack": [
+            "React", 
+            "JavaScript", 
+            "Firebase"
         ]
     },
 

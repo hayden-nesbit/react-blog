@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import img from './headshot.blog.2020.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import './About.css'
 
 
 function About() {
